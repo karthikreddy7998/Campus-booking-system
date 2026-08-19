@@ -1,0 +1,1644 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Error 404 – IIT/ISM Dhanbad</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta property="og:site_name" content="IIT/ISM Dhanbad">
+    <meta property="og:title" content="">
+    <meta property="og:description" content="">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.iitism.ac.in/assets/img/logo.png">
+    <meta property="og:image" content="">
+
+    <link rel="shortcut icon" href="https://www.iitism.ac.in/images/iit-fav.png" type="image/x-icon" />
+    <link href="https://www.iitism.ac.in/css/swiper-bundle.min.css" rel="stylesheet" />
+    <link href="https://www.iitism.ac.in/css/owl.carousel.min.css" rel="stylesheet" />
+    <link href="https://www.iitism.ac.in/css/owl.theme.default.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <link href="https://www.iitism.ac.in/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://www.iitism.ac.in/css/custom.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://www.iitism.ac.in/datatable/1.12.1/css/dataTables.bootstrap5.min.css" />
+    <link rel="stylesheet" href="https://www.iitism.ac.in/datatable/responsive/2.3.0/css/responsive.bootstrap.min.css" />
+    <link rel="stylesheet" href="https://www.iitism.ac.in/datatable/buttons/2.2.3/css/buttons.bootstrap5.min.css" />
+    <script src="https://www.iitism.ac.in/js/jquery-3.7.1.min.js"></script>
+            <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CEWLQ983BY"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'G-CEWLQ983BY');
+    </script>
+</head>
+
+<body>
+    <div class="uai userway_dark" id="userwayAccessibilityIcon" aria-label="Accessibility Menu" role="button"
+        tabindex="0" aria-haspopup="dialog" title="Accessibility Menu">
+        <span class="uiiw">
+            <img data-uw-rm-ignore="" class="ui_w" role="presentation" alt=""
+                src="https://www.iitism.ac.in/images/body_wh.svg" />
+        </span>
+    </div>
+    <main class="uwaw main uwaw_2-col uw-light-theme uwaw-initial free_widget">
+        <div class="uwaw-app" role="dialog" aria-modal="true">
+            <div class="uwaw__inner">
+                <div class="uwaw-header__l d-flex">
+                    <h1 id="uwaw-header" class="uwaw-header__title">
+                        Accessibility Menu
+                    </h1>
+                    <button class="uwaw-header__close" type="button" aria-label="Close the accessibility menu">
+                        <span style="width: 16px; height: 16px; display: flex;">
+                            <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" aria-hidden="true"
+                                focusable="false" width="16" height="16">
+                                <path fill="none" stroke="#ffffff" stroke-linecap="round" stroke-width="2"
+                                    d="m2.30436241 2.30436238 9.39127515 9.39127515m-9.39127518 6e-8 9.39127515-9.39127515">
+                                </path>
+                            </svg> -->
+                            <i class="fa-solid fa-xmark text-white fs-6"></i>
+                        </span>
+
+                    </button>
+                </div>
+
+                <div class="uwaw-body main">
+                    <div class="custom-scroll">
+                        <div class="outer-container" style="height: 100%;">
+                            <div class="positioning">
+                                <div class="custom-scrollbar">
+                                    <ul class="line-icons">
+                                        <li>
+                                            <a href="javascript:void(0);" id="changeColor">
+                                                <i class="fa-solid fa-circle-half-stroke"></i>
+                                                <h6>Contrast +</h6>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a id="btn-increase" href="javascript:void(0);">
+                                                <i class="fa-solid fa-text-width"></i>
+                                                <h6>Bigger Text</h6>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a id="btn-orig" href="javascript:void(0);">
+                                                <i class="fa-solid fa-text-width"></i>
+                                                <h6>Reset Text</h6>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a id="btn-decrease" href="javascript:void(0);">
+                                                <i class="fa-solid fa-text-width"></i>
+                                                <h6>Smaller Text</h6>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.iitism.ac.in/hi">
+                                                <i class="fa-solid fa-language"></i>
+                                                <h6>Hindi</h6>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.iitism.ac.in">
+                                                <i class="fa-solid fa-language"></i>
+                                                <h6>English</h6>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- Search Modal -->
+    <!-- Mobile Menu -->
+    <div class="stellarnav">
+        <ul class="mt-5">
+
+            <a id="close-mobile-menu" class="close-menu third"><span class="icon-close"></span>Close</a>
+
+            <li>
+                <form action="https://www.iitism.ac.in/search" role="search" method="GET">
+                    <input type="hidden" name="deptID" value="0">
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control form-control-lg" placeholder="IIT(ISM) Search"
+                            aria-label="Recipient's username" aria-describedby="button-addon2" name="search">
+                        <button class="btn btn-outline-secondary bg-warning text-white" type="submit"
+                            id="button-addon2">Search</button>
+                    </div>
+                </form>
+            </li>
+        </ul>
+                <div class="accordion accordion-flush mt-4" id="accordionFlushExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-heading_1">
+                    <a class="accordion-button text-white" href="https://www.iitism.ac.in/home">
+                        Home
+                    </a>
+                </h2>
+
+            </div>
+                                <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-heading_2">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse_2" aria-expanded="false" aria-controls="flush-collapse_2">
+                        Admission
+                    </button>
+                </h2>
+                <div id="flush-collapse_2" class="accordion-collapse collapse" aria-labelledby="flush-heading_2"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <ul>
+                                                                                                <li><a href="https://www.iitism.ac.in/jeea">UG
+                                        </a></li>
+                                                                                                                                <li class="has-sub">
+                                        <a
+                                            href="#">PG</a>
+
+                                        <ul>
+                                                                                                                                                <li><a
+                                                            href="https://admissions.iitism.ac.in/mtech/index.php/admission">M.Tech</a>
+                                                    </li>
+                                                                                                                                                                                                <li><a
+                                                            href="https://www.iitism.ac.in/home-mba">MBA</a>
+                                                    </li>
+                                                                                                                                                                                                <li><a
+                                                            href="https://www.iitism.ac.in/home-ma">MA</a>
+                                                    </li>
+                                                                                                                                                                                                <li><a
+                                                            href="https://www.iitism.ac.in/home-m-sc">M.Sc. &amp; M.Sc. Tech</a>
+                                                    </li>
+                                                                                                                                                                                                <li><a
+                                                            href="https://www.iitism.ac.in/executive-masters-programmes">Executive Masters Programmes</a>
+                                                    </li>
+                                                                                                                                    </ul>
+                                        <a class="dd-toggle" href="#"><span class="icon-plus"></span></a>
+                                    </li>
+                                                                                                                                <li><a href="https://www.iitism.ac.in/phdadmission">PhD
+                                        </a></li>
+                                                                                                                                <li><a href="https://people.iitism.ac.in/~download/FAQ/FAQ_2025.pdf">FAQ
+                                        </a></li>
+                                                                                    </ul>
+
+                    </div>
+                </div>
+            </div>
+                                <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-heading_3">
+                    <a class="accordion-button text-white" href="https://www.iitism.ac.in/institute-video">
+                        Institute video
+                    </a>
+                </h2>
+
+            </div>
+                                <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-heading_4">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse_4" aria-expanded="false" aria-controls="flush-collapse_4">
+                        Alumni
+                    </button>
+                </h2>
+                <div id="flush-collapse_4" class="accordion-collapse collapse" aria-labelledby="flush-heading_4"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <ul>
+                                                                                                <li><a href="https://alumni.iitism.ac.in/centenary-building.php">Centenary Appeal
+                                        </a></li>
+                                                                                                                                <li><a href="https://alumni.iitism.ac.in/">Alumni Portal
+                                        </a></li>
+                                                                                                                                <li><a href="https://app.alyve.health/login?redirect=%2Fall-programs%3Flink%3Dhttps%3A%2F%2Fprograms.alyve.health%2Finsurance%2Fselect%2Fcampus%2F472">Alumni Insurance Program
+                                        </a></li>
+                                                                                    </ul>
+
+                    </div>
+                </div>
+            </div>
+                                <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-heading_5">
+                    <a class="accordion-button text-white" href="https://www.iitism.ac.in/departments">
+                        Department
+                    </a>
+                </h2>
+
+            </div>
+                                <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-heading_6">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse_6" aria-expanded="false" aria-controls="flush-collapse_6">
+                        Faculty
+                    </button>
+                </h2>
+                <div id="flush-collapse_6" class="accordion-collapse collapse" aria-labelledby="flush-heading_6"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <ul>
+                                                                                                <li><a href="https://people.iitism.ac.in/~faculty/">Faculty Portal
+                                        </a></li>
+                                                                                                                                <li><a href="https://www.iitism.ac.in/all-faculty">All Faculty
+                                        </a></li>
+                                                                                                                                <li><a href="https://www.iitism.ac.in/research-cluster">Research Cluster
+                                        </a></li>
+                                                                                                                                <li><a href="https://people.iitism.ac.in/~download//faculty_webpage/Faculty-Hand-Book.pdf">Hand Book
+                                        </a></li>
+                                                                                                                                <li><a href="https://www.iitism.ac.in/rules-and-guidelines">Forms
+                                        </a></li>
+                                                                                    </ul>
+
+                    </div>
+                </div>
+            </div>
+                                <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-heading_7">
+                    <a class="accordion-button text-white" href="https://www.iitism.ac.in/staff-and-officers">
+                        Officers &amp; Staff
+                    </a>
+                </h2>
+
+            </div>
+                                <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-heading_8">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse_8" aria-expanded="false" aria-controls="flush-collapse_8">
+                        Students
+                    </button>
+                </h2>
+                <div id="flush-collapse_8" class="accordion-collapse collapse" aria-labelledby="flush-heading_8"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <ul>
+                                                                                                <li><a href="https://www.iitism.ac.in/home-dsw">Students’ Welfare
+                                        </a></li>
+                                                                                                                                <li><a href="https://ark.iitism.ac.in/">ARK Portal
+                                        </a></li>
+                                                                                                                                <li><a href="https://www.iitism.ac.in/online-payment">Online Payment
+                                        </a></li>
+                                                                                    </ul>
+
+                    </div>
+                </div>
+            </div>
+                                <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-heading_9">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse_9" aria-expanded="false" aria-controls="flush-collapse_9">
+                        The Institute
+                    </button>
+                </h2>
+                <div id="flush-collapse_9" class="accordion-collapse collapse" aria-labelledby="flush-heading_9"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <ul>
+                                                                                                <li class="has-sub">
+                                        <a
+                                            href="#">Overview</a>
+
+                                        <ul>
+                                                                                                                                                <li><a
+                                                            href="https://www.iitism.ac.in/about-overview">Overview</a>
+                                                    </li>
+                                                                                                                                                                                                <li><a
+                                                            href="https://www.iitism.ac.in/vision">Vision &amp; Mission</a>
+                                                    </li>
+                                                                                                                                                                                                <li><a
+                                                            href="https://www.iitism.ac.in/about-history">History</a>
+                                                    </li>
+                                                                                                                                    </ul>
+                                        <a class="dd-toggle" href="#"><span class="icon-plus"></span></a>
+                                    </li>
+                                                                                                                                <li class="has-sub">
+                                        <a
+                                            href="#">Administration</a>
+
+                                        <ul>
+                                                                                                                                                <li><a
+                                                            href="https://www.iitism.ac.in/administration">Administration</a>
+                                                    </li>
+                                                                                                                                                                                                <li><a
+                                                            href="https://www.iitism.ac.in/chairman">Chairman</a>
+                                                    </li>
+                                                                                                                                                                                                <li><a
+                                                            href="https://www.iitism.ac.in/director">Director</a>
+                                                    </li>
+                                                                                                                                                                                                <li><a
+                                                            href="https://www.iitism.ac.in/deputy-director">Deputy Director</a>
+                                                    </li>
+                                                                                                                                                                                                <li><a
+                                                            href="https://www.iitism.ac.in/deans">Deans</a>
+                                                    </li>
+                                                                                                                                                                                                <li><a
+                                                            href="https://www.iitism.ac.in/registrar">Registrar</a>
+                                                    </li>
+                                                                                                                                                                                                <li><a
+                                                            href="https://www.iitism.ac.in/associate-deans">Associate Deans</a>
+                                                    </li>
+                                                                                                                                                                                                <li><a
+                                                            href="https://www.iitism.ac.in/faculty-in-charge">Faculty In-Charge</a>
+                                                    </li>
+                                                                                                                                                                                                <li><a
+                                                            href="https://www.iitism.ac.in/hods">HoDs</a>
+                                                    </li>
+                                                                                                                                                                                                <li><a
+                                                            href="https://www.iitism.ac.in/library">Library</a>
+                                                    </li>
+                                                                                                                                                                                                <li><a
+                                                            href="https://www.iitism.ac.in/general-administration">General Administration</a>
+                                                    </li>
+                                                                                                                                    </ul>
+                                        <a class="dd-toggle" href="#"><span class="icon-plus"></span></a>
+                                    </li>
+                                                                                                                                <li class="has-sub">
+                                        <a
+                                            href="#">Reports</a>
+
+                                        <ul>
+                                                                                                                                                <li><a
+                                                            href="https://www.iitism.ac.in/annual-reports">Annual Reports</a>
+                                                    </li>
+                                                                                                                                                                                                <li><a
+                                                            href="https://www.iitism.ac.in/nirf">NIRF</a>
+                                                    </li>
+                                                                                                                                                                                                <li><a
+                                                            href="https://www.iitism.ac.in/ariia-report">ARIIA Report</a>
+                                                    </li>
+                                                                                                                                                                                                <li><a
+                                                            href="https://people.iitism.ac.in/~download/estt/registrar/The%20Institutes%20of%20Technology%20Act%201961_Modified%2014.9.2020.pdf">Institute of Technology Act, 1961</a>
+                                                    </li>
+                                                                                                                                                                                                <li><a
+                                                            href="https://www.iitism.ac.in/iit-council-data">IIT Council Data</a>
+                                                    </li>
+                                                                                                                                    </ul>
+                                        <a class="dd-toggle" href="#"><span class="icon-plus"></span></a>
+                                    </li>
+                                                                                                                                <li><a href="https://people.iitism.ac.in/~download/estt/registrar/IITISM-STATUTES.pdf">Statutes of IIT(ISM)
+                                        </a></li>
+                                                                                                                                <li><a href="https://www.iitism.ac.in/minutes-of-bog-meeting">Minutes of BoG Meeting
+                                        </a></li>
+                                                                                    </ul>
+
+                    </div>
+                </div>
+            </div>
+                                <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-heading_10">
+                    <a class="accordion-button text-white" href="https://people.iitism.ac.in/~academics/">
+                        Academics
+                    </a>
+                </h2>
+
+            </div>
+                                <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-heading_11">
+                    <a class="accordion-button text-white" href="https://www.iitism.ac.in/dean-iie">
+                        Innovation
+                    </a>
+                </h2>
+
+            </div>
+                                <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-heading_12">
+                    <a class="accordion-button text-white" href="https://ir.iitism.ac.in/">
+                        International Relations
+                    </a>
+                </h2>
+
+            </div>
+                                <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-heading_13">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse_13" aria-expanded="false" aria-controls="flush-collapse_13">
+                        Faculty &amp; Staff Opening
+                    </button>
+                </h2>
+                <div id="flush-collapse_13" class="accordion-collapse collapse" aria-labelledby="flush-heading_13"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <ul>
+                                                                                                <li><a href="https://www.iitism.ac.in/facultycareers">Faculty
+                                        </a></li>
+                                                                                                                                <li><a href="https://www.iitism.ac.in/career-non-faculty">Non Faculty
+                                        </a></li>
+                                                                                                                                <li><a href="https://www.iitism.ac.in/project-opening">Project Opening
+                                        </a></li>
+                                                                                    </ul>
+
+                    </div>
+                </div>
+            </div>
+                                <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-heading_14">
+                    <a class="accordion-button text-white" href="https://www.iitism.ac.in/career-development-centre">
+                        Placement
+                    </a>
+                </h2>
+
+            </div>
+                                <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-heading_15">
+                    <a class="accordion-button text-white" href="https://people.iitism.ac.in/~research/">
+                        Research
+                    </a>
+                </h2>
+
+            </div>
+                                <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-heading_16">
+                    <a class="accordion-button text-white" href="https://www.iitism.ac.in/center">
+                        Centers
+                    </a>
+                </h2>
+
+            </div>
+                                <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-heading_17">
+                    <a class="accordion-button text-white" href="https://people.iitism.ac.in/~cep/">
+                        CEP
+                    </a>
+                </h2>
+
+            </div>
+                                <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-heading_18">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse_18" aria-expanded="false" aria-controls="flush-collapse_18">
+                        Sustainability
+                    </button>
+                </h2>
+                <div id="flush-collapse_18" class="accordion-collapse collapse" aria-labelledby="flush-heading_18"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <ul>
+                                                                                                <li><a href="https://people.iitism.ac.in/~tribalwelfare/">MoTA
+                                        </a></li>
+                                                                                                                                <li><a href="https://people.iitism.ac.in/~csm/">CSM
+                                        </a></li>
+                                                                                                                                <li><a href="https://www.iitism.ac.in/rain-water-harvesting">Rain Water Harvesting
+                                        </a></li>
+                                                                                                                                <li><a href="https://www.iitism.ac.in/solid-waste-management">Solid Waste Management
+                                        </a></li>
+                                                                                    </ul>
+
+                    </div>
+                </div>
+            </div>
+                                <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-heading_19">
+                    <a class="accordion-button text-white" href="https://people.iitism.ac.in/~mbc/">
+                        In Media
+                    </a>
+                </h2>
+
+            </div>
+                                <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-heading_20">
+                    <a class="accordion-button text-white" href="https://iinventiv.iitism.ac.in/">
+                        IInvenTiv2026
+                    </a>
+                </h2>
+
+            </div>
+                                <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-heading_21">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse_21" aria-expanded="false" aria-controls="flush-collapse_21">
+                        Centenary Events
+                    </button>
+                </h2>
+                <div id="flush-collapse_21" class="accordion-collapse collapse" aria-labelledby="flush-heading_21"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <ul>
+                                                                                                <li><a href="https://people.iitism.ac.in/~download/news_and_events/admin/MISSION-2026-IIT-ISM-DHANBAD.pdf">IIT(ISM) @2026; 100 Years of legacy
+                                        </a></li>
+                                                                                                                                <li><a href="https://www.iitism.ac.in/seminar-1">Seminar
+                                        </a></li>
+                                                                                                                                <li class="has-sub">
+                                        <a
+                                            href="#">Newsletter</a>
+
+                                        <ul>
+                                                                                                                                                <li><a
+                                                            href="https://www.iitism.ac.in/applied-geology-newsletter">Applied Geology</a>
+                                                    </li>
+                                                                                                                                                                                                <li><a
+                                                            href="https://www.iitism.ac.in/applied-geophysics-newsletter">Applied Geophysics</a>
+                                                    </li>
+                                                                                                                                                                                                <li><a
+                                                            href="https://www.iitism.ac.in/chemical-engineering-newsletter">Chemical Engg.</a>
+                                                    </li>
+                                                                                                                                                                                                <li><a
+                                                            href="https://www.iitism.ac.in/chemistry-and-chemical-biology-newsletter">Chemistry and Chemical Biology</a>
+                                                    </li>
+                                                                                                                                                                                                <li><a
+                                                            href="https://www.iitism.ac.in/civil-engineering-newsletter">Civil Engg.</a>
+                                                    </li>
+                                                                                                                                                                                                <li><a
+                                                            href="https://www.iitism.ac.in/computer-science-and-engineering-newsletter">Computer Science and Engg.</a>
+                                                    </li>
+                                                                                                                                                                                                <li><a
+                                                            href="https://www.iitism.ac.in/electrical-engineering-newsletter">Electrical Engg.</a>
+                                                    </li>
+                                                                                                                                                                                                <li><a
+                                                            href="https://www.iitism.ac.in/electronics-engineering-newsletter">Electronics Engg.</a>
+                                                    </li>
+                                                                                                                                                                                                <li><a
+                                                            href="https://www.iitism.ac.in/environmental-science-and-engineering-newsletter">Environmental Science and Engg.</a>
+                                                    </li>
+                                                                                                                                                                                                <li><a
+                                                            href="https://www.iitism.ac.in/fuel-minerals-and-metallurgical-engineering-newsletter">Fuel, Minerals and Metallurgical Engg.</a>
+                                                    </li>
+                                                                                                                                                                                                <li><a
+                                                            href="https://www.iitism.ac.in/department-of-humanities-and-social-sciences-newsletter">Humanities and Social Sciences</a>
+                                                    </li>
+                                                                                                                                                                                                <li><a
+                                                            href="https://www.iitism.ac.in/mathematics-and-computing-newsletter">Mathematics &amp; Computing</a>
+                                                    </li>
+                                                                                                                                                                                                <li><a
+                                                            href="https://www.iitism.ac.in/management-studies-and-industrial-engineering-newsletter">Management Studies and Industrial Engg.</a>
+                                                    </li>
+                                                                                                                                                                                                <li><a
+                                                            href="https://www.iitism.ac.in/mechanical-engineering-newsletter">Mechanical Engg.</a>
+                                                    </li>
+                                                                                                                                                                                                <li><a
+                                                            href="https://www.iitism.ac.in/mining-engineering-newsletter">Mining Engg.</a>
+                                                    </li>
+                                                                                                                                                                                                <li><a
+                                                            href="https://www.iitism.ac.in/petroleum-engineering-newsletter">Petroleum Engg.</a>
+                                                    </li>
+                                                                                                                                                                                                <li><a
+                                                            href="https://www.iitism.ac.in/physics-newsletter">Physics</a>
+                                                    </li>
+                                                                                                                                    </ul>
+                                        <a class="dd-toggle" href="#"><span class="icon-plus"></span></a>
+                                    </li>
+                                                                                    </ul>
+
+                    </div>
+                </div>
+            </div>
+                    </div>
+
+    </div>
+    <!-- Mobile Menu -->
+    <div class="modal fade search-mode" id="searchModal" tabindex="-1" aria-labelledby="searchModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header border-0">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form action="https://www.iitism.ac.in/search" role="search" method="GET">
+                        <input type="hidden" name="deptID" value="0">
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control form-control-lg" placeholder="IIT(ISM) Search"
+                                aria-label="Recipient's username" aria-describedby="button-addon2" name="search">
+                            <button class="btn btn-outline-secondary bg-danger text-white" type="submit"
+                                id="button-addon2">Search</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- other Modal -->
+    <div class="modal fade mega-mode" id="megaModal" tabindex="-1" aria-labelledby="megaModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content">
+                <div class="modal-header border-0">
+                    <h5 class="modal-title"><img src="https://www.iitism.ac.in/images/footer_logo_white.png" width="400" />
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row megaheadmenu mt-5">
+                                                <div class="col-sm-12">
+                            <ul class="navbar-nav ml-auto d-grid">
+
+                                <li class="nav-item">
+                <a href="https://library.iitism.ac.in/"  target='_self' >Central Library</a>
+            </li>
+                                <li class="nav-item">
+                <a href="https://www.iitism.ac.in/tenders"  target='_self' >Tenders</a>
+            </li>
+                                <li class="nav-item">
+                <a href="https://www.iitism.ac.in/right-to-information"  target='_self' >Right to Information</a>
+            </li>
+                                <li class="nav-item">
+                <a href="https://people.iitism.ac.in/~download/pdf/Colleges,%20University,%20Institution_Website_Information.pdf"  target='_blank'>National Ragging Prevention Programme</a>
+            </li>
+                                <li class="nav-item">
+                <a href="https://people.iitism.ac.in/~cvo/"  target='_blank'>CVO</a>
+            </li>
+                                <li class="nav-item">
+                <a href="https://www.iitism.ac.in/bureau-of-indian-standards-data"  target='_self' >BIS Corner</a>
+            </li>
+                                <li class="nav-item">
+                <a href="https://www.iitism.ac.in/sc-st-cell"  target='_self' >SC/ST Cell</a>
+            </li>
+                                <li class="nav-item">
+                <a href="https://www.iitism.ac.in/equal-opportunity-cell"  target='_self' >Equal Opportunity Cell</a>
+            </li>
+                                <li class="nav-item">
+                <a href="https://www.iitism.ac.in/geological-museum"  target='_self' >Geological Museum</a>
+            </li>
+                
+
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <header class="position-fixed">
+
+        <div class="container-fluid">
+
+            <div class="row position-relative">
+                <div class="col-md-3 logo-holder">
+                    <a href="https://www.iitism.ac.in"><img src="https://www.iitism.ac.in/images/logo_new 1.png"
+                            class="img-fluid" /></a>
+                    <!-- <span class="heading-message"> centenary countdown</span> -->
+                </div>
+                <div class="col-sm-9 ">
+                    <div class="d-flex justify-content-end align-items-center">
+                        <img src="https://www.iitism.ac.in/images/two-bar.png" width="20" id="mobile-menu">
+                        <div class="d-flex flex-column  ">
+                            <nav class="upper-part d-flex justify-content-flex-end">
+                                                                <ul class="menu">
+                                    <li class="menu-item"><a href="https://www.iitism.ac.in/home">Home</a>
+            </li>
+                                <li class="menu-item position-relative">
+                <a href="#">Admission</a>
+                <ul class="sub-small-menu">
+                                                                                <li>
+                                    <a href="#">UG</a>
+                                    <ul class="under-submenu">
+                                                                                    <li> <a
+                                                    href="https://www.iitism.ac.in/jeea">B. Tech</a>
+                                            </li>
+                                                                                    <li> <a
+                                                    href="https://www.iitism.ac.in/jeea">BS MS</a>
+                                            </li>
+                                                                                    <li> <a
+                                                    href="https://people.iitism.ac.in/~academics/Academic/bsc-bed">B.Sc.-B.Ed.</a>
+                                            </li>
+                                                                            </ul>
+                                </li>
+                                                                                                                <li>
+                                    <a href="#">PG</a>
+                                    <ul class="under-submenu">
+                                                                                    <li> <a
+                                                    href="https://admissions.iitism.ac.in/mtech/index.php/admission">M.Tech</a>
+                                            </li>
+                                                                                    <li> <a
+                                                    href="https://www.iitism.ac.in/home-mba">MBA</a>
+                                            </li>
+                                                                                    <li> <a
+                                                    href="https://www.iitism.ac.in/home-ma">MA</a>
+                                            </li>
+                                                                                    <li> <a
+                                                    href="https://www.iitism.ac.in/home-m-sc">M.Sc &amp; M.Sc. Tech</a>
+                                            </li>
+                                                                                    <li> <a
+                                                    href="https://www.iitism.ac.in/executive-masters-programmes">Executive Masters Programmes</a>
+                                            </li>
+                                                                            </ul>
+                                </li>
+                                                                                                                <li><a href="https://www.iitism.ac.in/phdadmission">PhD</a>
+                                </li>
+                                                                                                                <li><a href="https://people.iitism.ac.in/~download/FAQ/FAQ_2025.pdf">FAQ</a>
+                                </li>
+                                                                    </ul>
+            </li>
+                                <li class="menu-item position-relative">
+                <a href="https://alumni.iitism.ac.in/centenary.php">Alumni</a>
+                <ul class="sub-small-menu">
+                                                                                <li><a href="https://alumni.iitism.ac.in/centenary-building.php">Centenary Appeal</a>
+                                </li>
+                                                                                                                <li><a href="https://alumni.iitism.ac.in/">Alumni Portal</a>
+                                </li>
+                                                                                                                <li><a href="https://app.alyve.health/login?redirect=%2Fall-programs%3Flink%3Dhttps%3A%2F%2Fprograms.alyve.health%2Finsurance%2Fselect%2Fcampus%2F472">Alumni Insurance Program</a>
+                                </li>
+                                                                    </ul>
+            </li>
+                                <li class="menu-item"><a href="https://www.iitism.ac.in/center">Centres</a>
+            </li>
+                                <li class="menu-item"><a href="https://people.iitism.ac.in/~cep/">CEP</a>
+            </li>
+                                <li class="menu-item"><a href="https://www.iitism.ac.in/departments">Department</a>
+            </li>
+                                <li class="menu-item position-relative">
+                <a href="#">Faculty</a>
+                <ul class="sub-small-menu">
+                                                                                <li><a href="https://people.iitism.ac.in/~faculty/">Faculty Portal</a>
+                                </li>
+                                                                                                                <li><a href="https://www.iitism.ac.in/all-faculty">All Faculty</a>
+                                </li>
+                                                                                                                <li><a href="https://www.iitism.ac.in/research-cluster">Research Cluster</a>
+                                </li>
+                                                                                                                <li><a href="https://people.iitism.ac.in/~download//faculty_webpage/Faculty-Hand-Book.pdf">Hand Book</a>
+                                </li>
+                                                                                                                <li><a href="https://www.iitism.ac.in/rules-and-guidelines">Forms</a>
+                                </li>
+                                                                    </ul>
+            </li>
+                                <li class="menu-item"><a href="https://people.iitism.ac.in/~inmedia/">In Media</a>
+            </li>
+                                <li class="menu-item"><a href="https://www.iitism.ac.in/institute-video">Institute Video</a>
+            </li>
+                                <li class="menu-item"><a href="https://www.iitism.ac.in/staff-and-officers">Officers &amp; Staff</a>
+            </li>
+                                <li class="menu-item position-relative">
+                <a href="#">Students</a>
+                <ul class="sub-small-menu">
+                                                                                <li><a href="https://www.iitism.ac.in/home-dsw">Students’ Welfare</a>
+                                </li>
+                                                                                                                <li><a href="https://ark.iitism.ac.in/">ARK Portal</a>
+                                </li>
+                                                                                                                <li><a href="https://www.iitism.ac.in/online-payment">Online Payment</a>
+                                </li>
+                                                                    </ul>
+            </li>
+                                <li class="menu-item"><a href="https://people.iitism.ac.in/~climate/">Sustainability</a>
+            </li>
+            
+
+
+                                </ul>
+
+                            </nav>
+                            <nav class="lower-navbar-menu d-flex justify-content-flex-end">
+                                                                <ul class="menu-big">
+                                    <li class="menu-item position-relative">
+                <a href="#">The Institute</a>
+                <ul class="sub-small-menu">
+                                                                        <li>
+                                <a href="#">Overview</a>
+                                <ul class="under-submenu">
+                                                                            <li> <a
+                                                href="https://www.iitism.ac.in/about-overview">Overview</a>
+                                        </li>
+                                                                            <li> <a
+                                                href="https://www.iitism.ac.in/vision">Vision &amp; Mission</a>
+                                        </li>
+                                                                            <li> <a
+                                                href="https://www.iitism.ac.in/about-history">History</a>
+                                        </li>
+                                                                    </ul>
+                            </li>
+                                                                                                <li>
+                                <a href="#">Administration</a>
+                                <ul class="under-submenu">
+                                                                            <li> <a
+                                                href="https://www.iitism.ac.in/administration">Administration</a>
+                                        </li>
+                                                                            <li> <a
+                                                href="https://www.iitism.ac.in/chairman">Chairman</a>
+                                        </li>
+                                                                            <li> <a
+                                                href="https://www.iitism.ac.in/director">Director</a>
+                                        </li>
+                                                                            <li> <a
+                                                href="https://www.iitism.ac.in/deputy-director">Deputy Director</a>
+                                        </li>
+                                                                            <li> <a
+                                                href="https://www.iitism.ac.in/deans">Deans</a>
+                                        </li>
+                                                                            <li> <a
+                                                href="https://www.iitism.ac.in/registrar">Registrar</a>
+                                        </li>
+                                                                            <li> <a
+                                                href="https://www.iitism.ac.in/associate-deans">Associate Deans</a>
+                                        </li>
+                                                                            <li> <a
+                                                href="https://www.iitism.ac.in/professor-in-charge">Professor In-Charge</a>
+                                        </li>
+                                                                            <li> <a
+                                                href="https://www.iitism.ac.in/hods">HoDs</a>
+                                        </li>
+                                                                            <li> <a
+                                                href="https://www.iitism.ac.in/library">Library</a>
+                                        </li>
+                                                                            <li> <a
+                                                href="https://www.iitism.ac.in/general-administration">General Administration</a>
+                                        </li>
+                                                                    </ul>
+                            </li>
+                                                                                                <li>
+                                <a href="#">Reports</a>
+                                <ul class="under-submenu">
+                                                                            <li> <a
+                                                href="https://www.iitism.ac.in/annual-reports">Annual Reports</a>
+                                        </li>
+                                                                            <li> <a
+                                                href="https://www.iitism.ac.in/nirf">NIRF</a>
+                                        </li>
+                                                                            <li> <a
+                                                href="https://www.iitism.ac.in/ariia-report">ARIIA Report</a>
+                                        </li>
+                                                                            <li> <a
+                                                href="https://people.iitism.ac.in/~download/estt/registrar/The%20Institutes%20of%20Technology%20Act%201961_Modified%2014.9.2020.pdf">Institute of Technology Act, 1961</a>
+                                        </li>
+                                                                            <li> <a
+                                                href="https://www.iitism.ac.in/iit-council-data">IIT Council Data</a>
+                                        </li>
+                                                                    </ul>
+                            </li>
+                                                                                                                                <li><a href="https://people.iitism.ac.in/~download/estt/registrar/IITISM-STATUTES.pdf">Statutes of IIT(ISM)</a>
+                                </li>
+                                                                                                                                                            <li><a href="https://www.iitism.ac.in/minutes-of-bog-meeting">Minutes of BoG</a>
+                                </li>
+                                                                                        </ul>
+            </li>
+                                <li class="menu-item"><a href="https://people.iitism.ac.in/~academics/">Academics</a>
+            </li>
+                                <li class="menu-item"><a href="https://people.iitism.ac.in/~research/">Research</a>
+            </li>
+                                <li class="menu-item"><a href="https://www.iitism.ac.in/dean-iie">Innovation</a>
+            </li>
+                                <li class="menu-item"><a href="https://ir.iitism.ac.in/">International Relations</a>
+            </li>
+                                <li class="menu-item position-relative">
+                <a href="#">Faculty &amp; Staff Opening</a>
+                <ul class="sub-small-menu">
+                                                                                                        <li><a href="https://www.iitism.ac.in/facultycareers">Faculty</a>
+                                </li>
+                                                                                                                                                            <li><a href="https://www.iitism.ac.in/career-non-faculty">Non Faculty</a>
+                                </li>
+                                                                                                                                                            <li><a href="https://www.iitism.ac.in/project-opening">Project Opening</a>
+                                </li>
+                                                                                        </ul>
+            </li>
+                                <li class="menu-item"><a href="https://www.iitism.ac.in/career-development-centre">Placement</a>
+            </li>
+                                <li class="menu-item position-relative">
+                <a href="#">Centenary Events</a>
+                <ul class="sub-small-menu">
+                                                                                                        <li><a href="https://people.iitism.ac.in/~download/news_and_events/admin/MISSION-2026-IIT-ISM-DHANBAD.pdf">IIT(ISM) @2026; 100 Years of legacy</a>
+                                </li>
+                                                                                                                                                            <li><a href="https://www.iitism.ac.in/seminar-1">Seminar</a>
+                                </li>
+                                                                                                                            <li>
+                                <a href="#">Newsletter</a>
+                                <ul class="under-submenu">
+                                                                            <li> <a
+                                                href="https://www.iitism.ac.in/applied-geology-newsletter">Applied Geology</a>
+                                        </li>
+                                                                            <li> <a
+                                                href="https://www.iitism.ac.in/applied-geophysics-newsletter">Applied Geophysics</a>
+                                        </li>
+                                                                            <li> <a
+                                                href="https://www.iitism.ac.in/chemical-engineering-newsletter">Chemical Engg.</a>
+                                        </li>
+                                                                            <li> <a
+                                                href="https://www.iitism.ac.in/chemistry-and-chemical-biology-newsletter">Chemistry and Chemical Biology</a>
+                                        </li>
+                                                                            <li> <a
+                                                href="https://www.iitism.ac.in/civil-engineering-newsletter">Civil Engg.</a>
+                                        </li>
+                                                                            <li> <a
+                                                href="https://www.iitism.ac.in/computer-science-and-engineering-newsletter">Computer Science and Engg.</a>
+                                        </li>
+                                                                            <li> <a
+                                                href="https://www.iitism.ac.in/electrical-engineering-newsletter">Electrical Engg.</a>
+                                        </li>
+                                                                            <li> <a
+                                                href="https://www.iitism.ac.in/electronics-engineering-newsletter">Electronics Eng.</a>
+                                        </li>
+                                                                            <li> <a
+                                                href="https://www.iitism.ac.in/environmental-science-and-engineering-newsletter">Environmental Science and Engg.</a>
+                                        </li>
+                                                                            <li> <a
+                                                href="https://www.iitism.ac.in/fuel-minerals-and-metallurgical-engineering-newsletter">Fuel, Minerals and Metallurgical Engg.</a>
+                                        </li>
+                                                                            <li> <a
+                                                href="https://www.iitism.ac.in/department-of-humanities-and-social-sciences-newsletter">Humanities and Social Sciences</a>
+                                        </li>
+                                                                            <li> <a
+                                                href="https://www.iitism.ac.in/mathematics-and-computing-newsletter">Mathematics &amp; Computing</a>
+                                        </li>
+                                                                            <li> <a
+                                                href="https://www.iitism.ac.in/management-studies-and-industrial-engineering-newsletter">Management Studies and Industrial Engg.</a>
+                                        </li>
+                                                                            <li> <a
+                                                href="https://www.iitism.ac.in/mechanical-engineering-newsletter">Mechanical Engg.</a>
+                                        </li>
+                                                                            <li> <a
+                                                href="https://www.iitism.ac.in/mining-engineering-newsletter">Mining Engg.</a>
+                                        </li>
+                                                                            <li> <a
+                                                href="https://www.iitism.ac.in/petroleum-engineering-newsletter">Petroleum Engg.</a>
+                                        </li>
+                                                                            <li> <a
+                                                href="https://www.iitism.ac.in/physics-newsletter">Physics</a>
+                                        </li>
+                                                                    </ul>
+                            </li>
+                                                            </ul>
+            </li>
+                                            </ul>
+
+                            </nav>
+                        </div>
+                        <div class="search-menu-box mb-0">
+                            <a class="search-plane" data-bs-toggle="modal" data-bs-target="#searchModal"><i
+                                    class="fa fa-search"></i> </a>
+                            <a class="menu-overlay" data-bs-toggle="modal" data-bs-target="#megaModal"><i
+                                    class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <nav class="social-float">
+        <ul>
+            <li><a href="https://x.com/IITISM_DHANBAD?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+                    target="_blank"><i class="fa-brands fa-x-twitter"></i><span>Twitter</span></a></li>
+            <li><a href="https://www.linkedin.com/school/iitism/" target="_blank"><i
+                        class="fab fa-linkedin-in"></i><span>Linkedin</span></a></li>
+            <li><a href="https://www.instagram.com/iit.ism/" target="_blank"><i
+                        class="fab fa-instagram"></i><span>Instagram</span></a></li>
+
+            <li><a href="https://www.facebook.com/IITISMDHNB/" target="_blank"><i
+                        class="fab fa-facebook-f"></i><span>Facebook</span></a></li>
+
+
+
+            <li><a href="https://www.youtube.com/channel/UCt9UKgRsW3EMM9eCrERTTAA" target="_blank"><i
+                        class="fab fa-youtube"></i><span>Youtube</span></a></li>
+        </ul>
+    </nav>
+    
+    <section class="position-relative">
+        <img src="https://www.iitism.ac.in/images/inner-banner.jpg" class="w-100 bannerr-image">
+        <div class="floting-name">
+            <h1>404 Not Found</h1>
+        </div>
+    </section>
+    <section class="section-padding campus-life bg-light overview-box">
+        <div class="container">
+            <div class="row">
+                <main>
+                    <svg viewBox="0 0 541.17206 328.45184" height="328.45184" width="541.17206" id="svg2"
+                        version="1.1">
+                        <metadata id="metadata8">
+                        </metadata>
+                        <defs id="defs6">
+                            <pattern patternUnits="userSpaceOnUse" width="1.5" height="1"
+                                patternTransform="translate(0,0) scale(10,10)" id="Strips2_1">
+                                <rect style="fill:black;stroke:none" x="0" y="-0.5" width="1" height="2"
+                                    id="rect5419" />
+                            </pattern>
+                            <linearGradient osb:paint="solid" id="linearGradient6096">
+                                <stop id="stop6094" offset="0" style="stop-color:#000000;stop-opacity:1;" />
+                            </linearGradient>
+                        </defs>
+                        <g transform="translate(170.14515,0.038164)" id="layer1">
+                            <g id="g6219">
+                                <path transform="matrix(1.0150687,0,0,11.193923,-1.3895945,-2685.7441)"
+                                    style="display:inline;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+                                    d="m 145.0586,263.51309 c -90.20375,-0.0994 -119.20375,-0.0994 -119.20375,-0.0994"
+                                    id="path6180" />
+                                <g id="g6174">
+                                    <ellipse ry="9.161705" rx="9.3055239" cy="91.32917" cx="84.963676" id="path4488"
+                                        style="display:inline;opacity:1;fill:none;fill-opacity:0.4627451;fill-rule:nonzero;stroke:#000000;stroke-width:1.08691013;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" />
+                                    <path id="path4490"
+                                        d="m 84.984382,-0.03816399 c 0.911733,-5.0186e-4 1.661858,18.47051499 1.674386,41.22988399 0.0069,12.610431 -0.214009,23.904598 -0.56753,31.469836 -0.282878,6.088471 -0.652275,9.761785 -1.058838,9.762119 -0.406564,3.33e-4 -0.78198,-3.672386 -1.074838,-9.760657 -0.36185,-7.564779 -0.595233,-18.858715 -0.602175,-31.469228 -0.01253,-22.759565 0.717262,-41.23145213 1.628995,-41.23195399 z"
+                                        style="display:inline;fill:#000000;stroke:none;stroke-width:0.23743393px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;" />
+                                    <path id="path4496"
+                                        d="m 85.115421,100.5729 c -0.0036,3.37532 -0.0071,6.75165 -0.0107,10.12897 m 0.512159,0.18258 c -1.914603,-0.23621 -3.505591,1.17801 -4.861444,2.68113 -1.355853,1.50312 -2.473764,3.09173 -3.387866,4.59538 -0.914103,1.50365 -1.620209,2.91586 -2.416229,4.41952 -0.79602,1.50365 -1.67928,3.09352 -0.808656,3.24054 0.870624,0.14702 3.490408,-1.14815 5.700074,-1.91396 2.209666,-0.76581 4.001473,-1.00079 5.922125,-0.86765 1.920652,0.13314 3.947462,0.6325 6.245357,1.6195 2.297896,0.98701 4.861161,2.46015 4.9051,0.91309 0.04394,-1.54706 -2.430929,-6.11379 -4.787811,-9.33976 -2.356882,-3.22597 -4.596047,-5.11158 -6.51065,-5.34779 z"
+                                        style="display:inline;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;" />
+                                    <rect ry="5" y="314.84082" x="35.355339" height="9.8994951" width="100.76272"
+                                        id="rect4553"
+                                        style="display:inline;opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.00157475;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" />
+                                    <path id="path4513"
+                                        d="m 74.6875,125.03748 c -8.394789,7.68654 -16.790624,15.37405 -23.988969,22.38484 -7.198345,7.0108 -13.197555,13.3433 -18.781379,20.01048 -5.583823,6.66719 -10.749655,13.66605 -13.916608,18.7496 -3.166952,5.08355 -4.333432,8.24971 -4.750315,11.08369 -0.416883,2.83399 -0.08368,5.33304 1.809372,16.25302 1.893048,10.91998 5.343489,30.24673 9.760132,48.66349 4.416642,18.41676 9.798356,35.91675 15.180267,53.41738"
+                                        style="display:inline;fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;" />
+                                    <path id="path4517"
+                                        d="m 76.9375,124.66248 c -4.548745,6.50695 -9.29087,13.29053 -13.530749,18.69724 -4.239879,5.4067 -8.072459,9.57255 -11.572943,13.98975 -3.500484,4.41719 -6.66636,9.08269 -9.333429,13.99996 -2.66707,4.91727 -4.833205,10.08267 -6.333458,15.08327 -1.500252,5.0006 -2.33339,9.8328 -2.500149,14.33343 -0.166759,4.50062 0.333124,8.66631 1.249922,15.50064 0.916798,6.83434 2.249854,16.33237 3.499902,24.91604 1.250047,8.58368 2.416611,16.24967 4.583438,28.58394 2.166827,12.33427 5.333153,29.33244 8.499966,46.33323"
+                                        style="display:inline;fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;" />
+                                    <path id="path4521"
+                                        d="m 96.8125,126.22498 c 6.89586,6.45836 13.7917,12.9167 19.98957,19.14581 6.19786,6.22912 11.69789,12.22914 17.11456,18.39581 5.41666,6.16667 10.74996,12.49995 14.74993,17.91655 3.99997,5.41659 6.66659,9.91653 7.16671,17.83316 0.50012,7.91664 -1.16644,19.24921 -3.3502,31.24619 -2.18376,11.99698 -4.81616,24.33632 -8.42063,38.99809 -3.60448,14.66177 -8.06212,31.17154 -12.56244,47.83939"
+                                        style="display:inline;fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;" />
+                                    <path id="path4525"
+                                        d="m 91.9375,124.09998 c 5.854072,7.16655 11.70824,14.33322 16.21863,20.16651 4.51039,5.83328 7.67706,10.33329 11.92718,16.33346 4.25012,6.00017 9.58322,13.49984 12.66653,18.58299 3.08332,5.08314 3.91663,7.74974 4.68205,10.91384 0.76542,3.1641 1.40129,6.50242 1.69781,8.02406 0.29651,1.52165 0.22299,1.06579 0.14933,0.60912"
+                                        style="display:inline;fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;" />
+                                    <path id="path4533"
+                                        d="m 89,123.66248 c 6.159885,11.51771 12.31996,23.03577 16.83724,31.78904 4.51728,8.75327 7.29964,14.54985 9.24424,18.32123 1.9446,3.77138 3.00519,5.42118 4.1838,9.19262 1.17861,3.77144 2.47477,9.6631 1.94443,23.80647 -0.53034,14.14338 -2.88706,36.53226 -5.4209,56.44951 -2.53383,19.91725 -5.24428,37.35836 -7.95503,54.80146"
+                                        style="display:inline;fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;" />
+                                    <path id="path4537"
+                                        d="m 87.0625,123.03748 c 2.916637,10.42937 5.833458,20.8594 7.291964,26.66356 1.458505,5.80416 1.458505,6.98257 2.402021,11.11052 0.943517,4.12795 2.827535,11.19302 4.065005,16.02501 1.23748,4.832 1.82668,7.42447 2.12139,10.84263 0.29471,3.41815 0.29471,7.65958 -0.11785,20.44893 -0.41255,12.78934 -1.23731,34.11536 -2.18014,53.62015 -0.94282,19.50478 -2.003429,37.18159 -3.064154,54.86032"
+                                        style="display:inline;fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;" />
+                                    <path id="path4541"
+                                        d="m 85.206367,122.98266 c 0.117841,11.74369 0.235693,23.48835 0.235693,36.55072 -10e-7,13.06238 -0.117833,27.43796 -0.05891,45.3521 0.05892,17.91413 0.29461,39.36153 0.707091,58.80738 0.412482,19.44585 1.001711,36.88701 1.590999,54.32995"
+                                        style="display:inline;fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;" />
+                                    <path id="path4545"
+                                        d="m 83.12978,122.92016 c -2.601311,10.56131 -5.214983,21.17282 -7.40283,31.41665 -2.187847,10.24384 -3.955407,20.14218 -5.074975,26.03483 -1.119568,5.89264 -1.59092,7.77805 -1.885708,10.07706 -0.294789,2.29901 -0.412567,5.0079 5.1e-5,17.56339 0.412617,12.55548 1.355064,34.93859 2.474996,54.74239 1.119932,19.80379 2.415574,37.00049 3.712005,54.20767"
+                                        style="display:inline;fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;" />
+                                    <path id="path4549"
+                                        d="m 79.25478,124.23266 c -5.440192,11.56251 -10.880951,23.12622 -15.899657,33.56368 -5.018706,10.43747 -9.614414,19.74672 -11.912808,26.70033 -2.298394,6.95362 -2.298394,11.54922 -1.355419,24.57415 0.942974,13.02493 2.828182,34.46917 5.066095,53.84746 2.237913,19.37829 4.833109,36.71892 7.425959,54.04387"
+                                        style="display:inline;fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;" />
+                                    <path id="path4556"
+                                        d="m 42.426407,155.38825 c 3.4184,0.82513 6.836082,1.65009 10.606997,2.18034 3.770916,0.53024 7.89657,0.76599 11.608535,0.88382 3.711965,0.11782 7.012548,0.11782 10.429711,0.0589 3.417163,-0.0589 6.953769,-0.17681 10.606588,-0.23572 3.652818,-0.0589 7.425155,-0.0589 11.137027,-0.23569 3.711875,-0.17679 7.366225,-0.53043 10.724475,-0.70716 3.35826,-0.17672 6.4233,-0.17672 9.48702,-0.58922 3.06372,-0.41251 6.12885,-1.23774 9.1918,-2.06238"
+                                        style="display:inline;fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;" />
+                                    <path id="path4560"
+                                        d="m 13.113199,198.16821 c 47.547038,0.40361 95.093071,0.80721 142.638101,1.2108"
+                                        style="display:inline;fill:none;stroke:#000000;stroke-width:1.00614154px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;" />
+                                    <path id="path4529"
+                                        d="m 132.6875,263.34998 c -4.2289,18.4155 -8.45806,36.83216 -12.6875,55.25"
+                                        style="display:inline;fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;" />
+                                    <ellipse ry="4.6715717" rx="2.5" cy="238.08525" cx="119.12262" id="path4614"
+                                        style="display:inline;opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.00157475;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" />
+                                    <ellipse ry="4.3158579" rx="4.9001703" cy="4.3948641" cx="85.016434" id="path4616"
+                                        style="display:inline;opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.82170224;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" />
+                                    <ellipse transform="translate(-170.14515,-0.038164)" ry="3.880542" rx="3.5777507"
+                                        cy="164.5713" cx="321.42224" id="path4565"
+                                        style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.00157475;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" />
+                                    <path transform="translate(-170.14515,-0.038164)" id="path4567"
+                                        d="m 321.74355,168.0687 c -1e-5,3.3913 -3.42414,11.26702 -8.73834,11.26702 -5.3142,0 -18.59463,27.24606 -8.38477,3.759 1.35199,-3.11016 5.69513,-12.89881 10.50609,-15.15612 8.05545,-3.77965 6.61702,-3.26121 6.61702,0.1301 z"
+                                        style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.00157475;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;" />
+                                    <path transform="translate(-170.14515,-0.038164)" id="path4570"
+                                        d="m 325,163.45184 c 1.66722,0.62594 3.33388,1.25167 3.33438,1.56444 5e-4,0.31276 -1.66671,0.31276 -3.33438,0.31276"
+                                        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;" />
+                                    <path transform="translate(-170.14515,-0.038164)" id="path4578"
+                                        d="m 314.72098,177.37003 c -0.21488,1.64138 -0.42965,3.28197 0.28484,3.96351 0.71449,0.68155 2.35396,0.39999 3.99418,0.1183"
+                                        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;" />
+                                    <path transform="translate(-170.14515,-0.038164)" id="path4578-1"
+                                        d="m 316,176.45184 c -0.29612,1.41007 -0.59214,2.81967 -0.25801,3.48764 0.33413,0.66798 1.29605,0.59017 2.25801,0.51236"
+                                        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;" />
+                                    <path transform="translate(-170.14515,-0.038164)" id="path4610"
+                                        d="m 318,180.45184 c 0.66667,0 1.33434,0 1.501,0.16616 0.16667,0.16617 -0.16667,0.49951 0.001,0.66667 0.16767,0.16717 0.68771,0.16717 0.89053,0.36949 0.20282,0.20233 -0.0582,0.46335 -0.39253,0.79768"
+                                        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;" />
+                                    <path id="path4573"
+                                        d="m 155,199.59998 34.15106,6.52318 v 11.49049 l -1.06066,13.43503 -3.88908,19.44543 -3.00521,10.42983 -4.06586,12.19759 -17.14734,-4.94975 -14.92431,-4.65869 v 0 L 155,199.59998"
+                                        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+                                    <path id="path4575"
+                                        d="m 172.53405,202.94118 -2.65165,33.23402 -3.53553,16.97056 -5.12652,15.73313"
+                                        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+                                    <path id="path4579"
+                                        d="m 187.2662,239.00256 c 0.76634,-0.82482 2.12163,-2.00333 3.50552,-2.26818 1.38389,-0.26485 2.79921,0.38383 3.2412,1.53192 0.442,1.14808 -0.0885,2.79852 -1.5624,3.24089 -1.4739,0.44236 -3.88809,-0.32312 -3.7995,0.001 0.0886,0.32427 2.68064,1.73812 4.00626,3.12221 1.32563,1.38408 1.38456,2.73956 0.79537,3.38822 -0.5892,0.64866 -1.82576,0.58977 -2.53349,0.11762 -0.70773,-0.47215 -0.88437,-1.35536 -1.59092,-2.65068 -0.70656,-1.29532 -1.94507,-3.00565 -2.47512,-4.09626 -0.53005,-1.09062 -0.35326,-1.56206 0.41308,-2.38689 z"
+                                        style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+                                </g>
+                            </g>
+                        </g>
+                        <g id="layer3">
+                            <g id="text4526"
+                                style="fill:url(#Strips2_1);fill-opacity:1;stroke:none;stroke-width:1.23488784;"
+                                transform="matrix(0.97168718,0,0,1.0291378,170.14515,0.038164)" aria-label="4">
+                                <path id="path4555"
+                                    style="fill:url(#Strips2_1);fill-opacity:1;stroke:#000000;stroke-width:1.23488784;stroke-opacity:1"
+                                    d="M -0.46490841,256.59082 H -26.166013 v 43.5298 h -41.214384 v -43.5298 h -75.829833 l -9.95629,-15.28174 64.136994,-140.0826 h 8.914347 l 33.573515,15.8606 -48.507941,89.60655 -11.461305,19.56526 h 39.130513 l 4.399288,-43.06672 h 36.815096 v 43.06672 h 25.70110459 z" />
+                            </g>
+                            <g id="text4526-2"
+                                style="fill:url(#Strips2_1);fill-opacity:1;stroke:none;stroke-width:1.23488784;"
+                                transform="matrix(0.97168718,0,0,1.0291378,377.95605,103.2934)" aria-label="4">
+                                <path id="path4558"
+                                    style="fill:url(#Strips2_1);fill-opacity:1;stroke:#000000;stroke-width:1.23488784;stroke-opacity:1"
+                                    d="m 147.55592,156.33602 h -25.70111 v 43.5298 H 80.640431 v -43.5298 H 4.8105946 L -5.1456892,141.05429 58.991302,0.97168512 h 8.914347 L 101.47916,16.832277 52.971223,106.43883 41.50992,126.00409 h 39.130511 l 4.399288,-43.06672 h 36.815091 v 43.06672 h 25.70111 z" />
+                            </g>
+                        </g>
+                    </svg>
+
+                    <p id="errorText">Ooops!!! The page you are looking for is not found</p>
+
+                </main>
+            </div>
+        </div>
+    </section>
+    <footer class="section-padding pb-2">
+        <div class="container">
+            <div class="row align-items-center">
+
+                <div class="col-md-7 foot-link">
+                    <h4>Quick Links/Resources</h4>
+                                        <div class="row">
+            <div class="col-md-12">
+            <ul>
+                                    <li><a href="https://people.iitism.ac.in/~download/files/IIT%20(ISM)%20Foreign%20students%20Admission%20Guidelines%20from%202022%20onwards.pdf">Admission Guideline and Fee Structure of Foreign Student</a>
+                    </li>
+                                    <li><a href="https://people.iitism.ac.in/~dsw/">Campus Life</a>
+                    </li>
+                                    <li><a href="https://people.iitism.ac.in/~download/video/iitism-campus-tour.mp4">Campus Tour</a>
+                    </li>
+                                    <li><a href="https://www.studyinindia.gov.in/">Study in India</a>
+                    </li>
+                                    <li><a href="https://www.iitism.ac.in/student-verification">Student Verification</a>
+                    </li>
+                                    <li><a href="https://people.iitism.ac.in/~download/rules/Contingency%20Rule%20with%20Claim%20Form.pdf">Contingency Rules/Guidelines for Ph.D/M.Tech/ IPDF students</a>
+                    </li>
+                                    <li><a href="https://people.iitism.ac.in/~healthcenter/">Health Centre</a>
+                    </li>
+                                    <li><a href="https://people.iitism.ac.in/~download/form-emp/GJLT.pdf">GJLT Booking</a>
+                    </li>
+                                    <li><a href="https://iinventiv.iitism.ac.in/">IInvenTiv2026</a>
+                    </li>
+                                    <li><a href="https://www.iitism.ac.in/guest-house">Guest House</a>
+                    </li>
+                            </ul>
+        </div>
+
+                    </div>
+            </div>
+            <div class="col-md-5 border-left">
+                <img src="https://www.iitism.ac.in/images/footer_logo_white.png" class="foot-logo" />
+
+                <div class="box-3 d-flex mt-4">
+                    <div class="btn btn-three">
+                        <a
+                            href="https://alumni.iitism.ac.in">Donation</a>
+                    </div>
+                    
+                    <div class="btn btn-three">
+                                                <a href="https://www.iitism.ac.in/general-administration">Contact</a>
+                                            </div>
+                </div>
+                <div class="d-flex stqc-badge my-4" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="The website is Audited by STQC" data-bs-original-title="" title="">
+                    <img src="https://www.iitism.ac.in/images/stqc_logo.png" width="80">
+                    <img src="https://www.iitism.ac.in/images/stqc-qr-code.png" width="80" class="ms-3" />
+                </div>
+                
+                <div class="d-flex fs-6 mt-3 ">User Visit:&nbsp;
+                    <script type="text/javascript" src="https://counter.websiteout.com/js/17/8/30644270/1"></script>
+                    
+                    &nbsp;Last Update:&nbsp;
+                    22-04-2026 06:21:59 PM</span>
+                </div>
+            </div>
+
+
+
+            <hr class="mt-3" />
+            <div class="row align-items-center">
+                <div class="col-md-12">
+                    <div class="swiper mySwiper external-link-swiper overflow-hidden">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <a href="https://swachhbharatmission.ddws.gov.in/" target="_blank"><img
+                                        src="https://www.iitism.ac.in/images/Swachh-Bharat.jpg" /></a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="https://www.data.gov.in/" target="_blank"><img
+                                        src="https://www.iitism.ac.in/images/Data-gov.in.jpg" /></a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="https://www.india.gov.in/" target="_blank"><img
+                                        src="https://www.iitism.ac.in/images/India.gov.in.jpg" /></a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="https://csc.gov.in/digitalIndia" target="_blank"><img
+                                        src="https://www.iitism.ac.in/images/Digital-India.jpg" /></a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="https://www.skillindiadigital.gov.in/home" target="_blank"><img
+                                        src="https://www.iitism.ac.in/images/Skill-India.jpg" /></a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="https://www.education.gov.in/" target="_blank"><img
+                                        src="https://www.iitism.ac.in/images/ministry.jpg" /></a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="https://www.data.gov.in/" target="_blank"><img
+                                        src="https://www.iitism.ac.in/images/Data-gov.in.jpg" /></a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="https://www.india.gov.in/" target="_blank"><img
+                                        src="https://www.iitism.ac.in/images/India.gov.in.jpg" /></a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="https://csc.gov.in/digitalIndia" target="_blank"><img
+                                        src="https://www.iitism.ac.in/images/Digital-India.jpg" /></a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="https://www.skillindiadigital.gov.in/home" target="_blank"><img
+                                        src="https://www.iitism.ac.in/images/Skill-India.jpg" /></a>
+                            </div>
+
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="mt-3" />
+            <ul class="footer-navbar-nav d-flex">
+                                <li class="nav-item">
+            <a class="nav-link" href="https://www.iitism.ac.in/internal-user">Internal People User</a>
+        </li>
+            <li class="nav-item">
+            <a class="nav-link" href="https://people.iitism.ac.in/~download/td/TD.pdf">Telephone Directory</a>
+        </li>
+            <li class="nav-item">
+            <a class="nav-link" href="https://www.iitism.ac.in/right-to-information">RTI</a>
+        </li>
+            <li class="nav-item">
+            <a class="nav-link" href="https://www.iitism.ac.in/icc-1">ICC</a>
+        </li>
+            <li class="nav-item">
+            <a class="nav-link" href="https://www.iitism.ac.in/online-payment">Payment</a>
+        </li>
+            <li class="nav-item">
+            <a class="nav-link" href="https://people.iitism.ac.in/~download/iitismassets/assets/files/28-07-2019-11_07_10_notices.pdf">Digital Life Certificate</a>
+        </li>
+            <li class="nav-item">
+            <a class="nav-link" href="https://people.iitism.ac.in/~download/iitismassets/assets/files/The%20Institutes%20of%20Technology%20Act%201961_Modified%2014.9.2020.pdf">The Institutes of Technology Act 1961</a>
+        </li>
+            <li class="nav-item">
+            <a class="nav-link" href="https://people.iitism.ac.in/~download/iitismassets/assets/files/Asset.pdf">Assets</a>
+        </li>
+                </ul>
+        </div>
+
+    </footer>
+    <div class=" w-100 copyright text-center">
+        Copyright © 2026 All Rights Reserved
+        || Designed &amp; Developed by - <a
+            href="https://www.webstep.in/" target="_blank" class="text-white"> WEBSTEP TECHNOLOGIES PRIVATE LIMITED
+        </a>
+
+    </div>
+
+
+    <!-- <a href="https://www.chatbase.co/chatbot-iframe/hSJkkHzGsJ4NJRmGaegqC" target="_blank" class="chat-bot"><img src="https://www.iitism.ac.in/images/iitism_buddy.png"/></a> -->
+
+    <button class="top-to-scroll"><i class="fa-solid fa-chevron-up"></i></button>
+    <script src="https://www.iitism.ac.in/js/bootstrap.bundle.min.js"></script>
+    <script src="https://www.iitism.ac.in/js/owl.carousel.min.js"></script>
+    <script src="https://www.iitism.ac.in/js/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://www.iitism.ac.in/datatable/1.12.1/js/jquery.dataTables.min.js"></script>
+    <script src="https://www.iitism.ac.in/datatable/1.12.1/js/dataTables.bootstrap5.min.js"></script>
+    <script src="https://www.iitism.ac.in/datatable/responsive/2.3.0/js/dataTables.responsive.min.js"></script>
+    <script src="https://www.iitism.ac.in/datatable/buttons/2.2.3/js/dataTables.buttons.min.js"></script>
+    <script src="https://www.iitism.ac.in/datatable/buttons/2.2.3/js/buttons.print.min.js"></script>
+        <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var mySwiper = new Swiper(".swiper-container", {
+                direction: "horizontal", // or 'vertical'
+                loop: true,
+                centeredSlides: true,
+
+                // If we need pagination
+                pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
+                    dynamicBullets: true,
+                },
+
+                // Navigation arrows
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+                },
+
+                // Autoplay
+                autoplay: {
+                    delay: 5000,
+                    disableOnInteraction: false,
+                },
+
+                // Use slide or fade transition effect
+                speed: 2000,
+                effect: "fade",
+                fadeEffect: {
+                    crossFade: true,
+                },
+            });
+        });
+        var swiper = new Swiper(".external-link-swiper", {
+            slidesPerView: 6,
+            spaceBetween: 10,
+            speed: 6000,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            breakpoints: {
+                640: {
+                    slidesPerView: 2,
+                    spaceBetween: 20,
+                },
+                768: {
+                    slidesPerView: 6,
+                    spaceBetween: 40,
+                },
+                1024: {
+                    slidesPerView: 7,
+                    spaceBetween: 10,
+                },
+            },
+        });
+        $(window).scroll(function() {
+            if ($(this).scrollTop() > 150) {
+                $("body").addClass("fix-top");
+                $(".logo-holder img").show();
+                $("#countclock ").hide();
+                $(".heading-message").hide();
+            } else {
+                $("body").removeClass("fix-top");
+                $(".logo-holder img").hide();
+                $("#countclock ").show();
+                $(".heading-message").show();
+            }
+        });
+        $(document).ready(function() {
+
+            $(".uwaw-header__close").click(function() {
+                $(".uwaw.main").fadeOut();
+            });
+            $("#userwayAccessibilityIcon").click(function() {
+                $(".uwaw.main").fadeIn();
+            });
+
+            $(".counter").each(function() {
+                var $this = $(this),
+                    countTo = $this.attr("data-countto");
+                countDuration = parseInt($this.attr("data-duration"));
+                $({
+                    counter: $this.text()
+                }).animate({
+                    counter: countTo,
+                }, {
+                    duration: countDuration,
+                    easing: "linear",
+                    speed: 5000,
+                    step: function() {
+                        $this.text(Math.floor(this.counter));
+                    },
+                    complete: function() {
+                        $this.text(this.counter);
+                    },
+                });
+            });
+            $(".testimonial-carousel").owlCarousel({
+                loop: true,
+                autoplay: true,
+                autoplayTimeout: 5000,
+                margin: 25,
+                nav: false,
+                dots: true,
+                responsive: {
+                    0: {
+                        items: 1,
+                    },
+                    600: {
+                        items: 1,
+                    },
+                    1000: {
+                        items: 1,
+                    },
+                },
+            });
+            $(".owl-carousel-imp-link").owlCarousel({
+                loop: true,
+                autoplay: true,
+                autoplayTimeout: 5000,
+                margin: 10,
+                nav: false,
+                dots: false,
+                responsive: {
+                    0: {
+                        items: 1,
+                    },
+                    600: {
+                        items: 1,
+                    },
+                    1000: {
+                        items: 1,
+                    },
+                },
+            });
+            // $(".owl-carousel").owlCarousel({
+            //     loop: true,
+            //     margin: 25,
+            //     autoplay: true,
+            //     autoplayTimeout: 5000,
+            //     autoplayHoverPause: true,
+            //     nav: false,
+            //     dots: false,
+            //     responsive: {
+            //         0: {
+            //             items: 1,
+            //         },
+            //         600: {
+            //             items: 3,
+            //         },
+            //         1300: {
+            //             items: 4,
+            //         },
+            //         1900: {
+            //             items: 5,
+            //         },
+            //     },
+            // });
+            $('.event-carousel').owlCarousel({
+                loop: true,
+                margin: 10,
+                nav: false,
+                autoplay: true,
+                autoplayTimeout: 5000,
+                dots: false,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    600: {
+                        items: 3
+                    },
+                    1000: {
+                        items: 2
+                    }
+                }
+            })
+            $(document).ready(function() {
+                new DataTable('.dataTbl', {
+                    "bDestroy": true,
+                    ordering: false,
+                });
+            });
+        });
+    </script>
+    <script>
+        const button = document.querySelector(".top-to-scroll");
+
+        const displayButton = () => {
+            window.addEventListener("scroll", () => {
+                //console.log(window.scrollY);
+
+                if (window.scrollY > 300) {
+                    button.style.display = "block";
+                } else {
+                    button.style.display = "none";
+                }
+            });
+        };
+
+        const scrollToTop = () => {
+            button.addEventListener("click", () => {
+                window.scroll({
+                    top: 0,
+                    left: 0,
+                    behavior: "smooth",
+                });
+                //console.log(event);
+            });
+        };
+
+        displayButton();
+        scrollToTop();
+    </script>
+    <script>
+        $(document).ready(function() {
+            $(".stellarnav").hide();
+            $("#mobile-menu").click(function() {
+                $(".stellarnav").show();
+            });
+            $("#close-mobile-menu").click(function() {
+                $(".stellarnav").hide();
+            });
+
+        });
+
+        //main website ka scoller hai
+        $('.banner-carousel').owlCarousel({
+            loop: true,
+            margin: 0,
+            nav: false,
+            dot: false,
+            autoplay: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 1
+                },
+                1000: {
+                    items: 1
+                }
+            }
+        })
+    </script>
+    <script>
+        var $affectedElements = $("p, h1, h2, h3, h4, h5, h6");
+
+        $affectedElements.each(function() {
+            var $this = $(this);
+            $this.data("orig-size", $this.css("font-size"));
+        });
+
+        $("#btn-increase").click(function() {
+            changeFontSize(1);
+        })
+
+        $("#btn-decrease").click(function() {
+            changeFontSize(-1);
+        })
+
+        $("#btn-orig").click(function() {
+            $affectedElements.each(function() {
+                var $this = $(this);
+                $this.css("font-size", $this.data("orig-size"));
+            });
+        })
+
+        function changeFontSize(direction) {
+            $affectedElements.each(function() {
+                var $this = $(this);
+                $this.css("font-size", parseInt($this.css("font-size")) + direction);
+            });
+        }
+        //console.log(localStorage);
+
+        $('body').toggleClass(localStorage.toggled);
+
+        $("#changeColor").on('click', function() {
+            if (localStorage.toggled != 'background-black') {
+                $('body').toggleClass('background-black', true);
+                localStorage.toggled = "background-black";
+            } else if (localStorage.toggled == 'background-black') {
+                $('body').toggleClass('background-black', false);
+                localStorage.toggled = "";
+
+            }
+        });
+    </script>
+    <script>
+        // document.addEventListener("DOMContentLoaded", function() {
+        //     var countDownDate = new Date("dec 9, 2025 00:00:00").getTime();
+        //     var x = setInterval(function() {
+        //         var now = new Date().getTime();
+        //         var distance = countDownDate - now;
+
+        //         var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        //         var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)).toString()
+        //             .padStart(2, "0");
+        //         var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60)).toString().padStart(2,
+        //             "0");
+        //         var seconds = Math.floor((distance % (1000 * 60)) / 1000).toString().padStart(2, "0");
+
+        //         document.getElementById("countclock").innerHTML = days + ":" + hours + ":" + minutes + ":" +
+        //             seconds;
+        //         document.getElementById("countclock").style.padding = "10px";
+
+        //         if (distance < 0) {
+        //             clearInterval(x);
+        //             document.getElementById("count").innerHTML = "100 YEARS COMPLETED SUCCESSFULLY";
+        //         }
+        //     }, 1000);
+        // });
+        $(document).ready(function() {
+            $('iframe[src*="youtube.com"]').each(function() {
+                $(this).attr('referrerpolicy', 'strict-origin-when-cross-origin');
+                // Reload the iframe to apply the new policy
+                var src = $(this).attr('src');
+                $(this).attr('src', src);
+            });
+        });
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.4/jquery-confirm.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"
+        integrity="sha512-2rNj2KJ+D8s1ceNasTIex6z4HWyOnEYLVC3FigGOmyQCZc2eBXKgOxQmo3oKLHyfcj53uz4QMsRCWNbLd32Q1g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        $(document).ready(function() {
+            $("body").tooltip({
+                selector: '[data-bs-toggle=tooltip]'
+            });
+        });
+    </script>
+    <style>
+        .tooltip-inner {
+            max-width: 200px;
+            padding: .25rem .5rem;
+            color: #000000;
+            text-align: center;
+            background-color: #ffd049;
+            border-radius: .25rem;
+        }
+
+        .bs-tooltip-auto[data-popper-placement^=top] .tooltip-arrow::before,
+        .bs-tooltip-top .tooltip-arrow::before {
+            top: -1px;
+
+            border-top-color: #ffd049;
+        }
+
+        .stqc-badge {
+            width: fit-content;
+        }
+    </style>
+</body>
+
+</html>

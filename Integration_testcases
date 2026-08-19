@@ -1,0 +1,195 @@
+# 🧪 INTEGRATION TEST CASES – IIT ISM CAMPUS BOOKING SYSTEM
+
+---
+
+### 🔐 Authentication Integration
+
+**Test Case 1: User Registration → Database Storage**
+Test ID: IT_AUTH_001
+Expected Output:
+User data stored in database with hashed password
+Result: Pass
+
+---
+
+**Test Case 2: Login → JWT → Protected Route Access**
+Test ID: IT_AUTH_002
+Expected Output:
+JWT token generated and allows access to protected APIs
+Result: Pass
+
+---
+
+**Test Case 3: Invalid Token → API Access Denied**
+Test ID: IT_AUTH_003
+Expected Output:
+Access denied when invalid token is used
+Result: Pass
+
+---
+
+### 🏫 Room Management Integration
+
+**Test Case 4: Admin Adds Room → Visible to Users**
+Test ID: IT_ROOM_001
+Expected Output:
+New room appears in user room list
+Result: Pass
+
+---
+
+**Test Case 5: Room Availability Toggle → Booking Restriction**
+Test ID: IT_ROOM_002
+Expected Output:
+Unavailable room cannot be booked
+Result: Pass
+
+---
+
+### 📅 Booking Flow Integration
+
+**Test Case 6: User Booking → Stored in Database → Visible in Dashboard**
+Test ID: IT_BOOK_001
+Expected Output:
+Booking saved and displayed in "My Bookings"
+Result: Pass
+
+---
+
+**Test Case 7: Booking Request → Admin Dashboard Sync**
+Test ID: IT_BOOK_002
+Expected Output:
+Admin sees new booking request instantly
+Result: Pass
+
+---
+
+**Test Case 8: Booking Conflict Check → Database Validation**
+Test ID: IT_BOOK_003
+Expected Output:
+Conflicting booking rejected at backend
+Result: Pass
+
+---
+
+**Test Case 9: Booking Update → Database Sync → UI Refresh**
+Test ID: IT_BOOK_004
+Expected Output:
+Updated booking reflected immediately in UI
+Result: Pass
+
+---
+
+**Test Case 10: Booking Cancellation → Status Update Everywhere**
+Test ID: IT_BOOK_005
+Expected Output:
+Booking status updated in database and UI
+Result: Pass
+
+---
+
+### 🛠️ Admin Workflow Integration
+
+**Test Case 11: Admin Approves Booking → User Notification**
+Test ID: IT_ADMIN_001
+Expected Output:
+User sees booking status as "Approved"
+Result: Pass
+
+---
+
+**Test Case 12: Admin Rejects Booking → User Dashboard Update**
+Test ID: IT_ADMIN_002
+Expected Output:
+Booking marked as "Rejected" in user dashboard
+Result: Pass
+
+---
+
+**Test Case 13: Admin Filters Bookings → Backend Query Sync**
+Test ID: IT_ADMIN_003
+Expected Output:
+Filtered results match database records
+Result: Pass
+
+---
+
+### 🎨 Frontend ↔ Backend Integration
+
+**Test Case 14: Fetch Rooms API → UI Rendering**
+Test ID: IT_UI_001
+Expected Output:
+Rooms displayed correctly in frontend
+Result: Pass
+
+---
+
+**Test Case 15: Booking API → Toast Notification**
+Test ID: IT_UI_002
+Expected Output:
+Success/error toast displayed based on API response
+Result: Pass
+
+---
+
+**Test Case 16: API Error → UI Error Handling**
+Test ID: IT_UI_003
+Expected Output:
+User-friendly error message shown
+Result: Pass
+
+---
+
+### ⚡ Performance Integration
+
+**Test Case 17: Admin Action → Real-Time User Update**
+Test ID: IT_PERF_001
+Expected Output:
+Changes reflected without manual refresh
+Result: Pass
+
+---
+
+**Test Case 18: Multiple Users Booking → System Stability**
+Test ID: IT_PERF_002
+Expected Output:
+System handles concurrent requests without crash
+Result: Pass
+
+---
+
+### 🔒 Security Integration
+
+**Test Case 19: Password Hashing → Login Validation**
+Test ID: IT_SEC_001
+Expected Output:
+Hashed password validated correctly during login
+Result: Pass
+
+---
+
+**Test Case 20: API Input Validation → Database Protection**
+Test ID: IT_SEC_002
+Expected Output:
+Invalid/malicious input rejected
+Result: Pass
+
+---
+
+### 🧠 Reliability Integration
+
+**Test Case 21: Database Failure → API Error Response**
+Test ID: IT_REL_001
+Expected Output:
+Graceful error response returned to frontend
+Result: Pass
+
+---
+
+**Test Case 22: Server Restart → Session Handling**
+Test ID: IT_REL_002
+Expected Output:
+JWT-based session remains valid after restart
+Result: Pass
+
+---
