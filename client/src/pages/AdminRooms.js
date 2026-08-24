@@ -37,7 +37,7 @@ function AdminRooms() {
 
   const fetchRooms = async () => {
     try {
-      const res = await fetch("http://localhost:5000/api/rooms", { cache: "no-store" });
+      const res = await fetch("https://campus-booking-system-81tp.onrender.com/api/rooms", { cache: "no-store" });
       const data = await res.json();
       setRooms(data);
     } catch (err) {
@@ -75,8 +75,8 @@ function AdminRooms() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     const url = editingRoom 
-      ? `http://localhost:5000/api/rooms/${editingRoom._id}`
-      : "http://localhost:5000/api/rooms/add";
+      ? `https://campus-booking-system-81tp.onrender.com/api/rooms/${editingRoom._id}`
+      : "https://campus-booking-system-81tp.onrender.com/api/rooms/add";
     const method = editingRoom ? "PUT" : "POST";
 
     try {
@@ -98,7 +98,7 @@ function AdminRooms() {
   const handleDelete = async (id) => {
     if(!window.confirm("Are you sure you want to delete this room?")) return;
     try {
-      const res = await fetch(`http://localhost:5000/api/rooms/${id}`, { method: "DELETE" });
+      const res = await fetch(`https://campus-booking-system-81tp.onrender.com/api/rooms/${id}`, { method: "DELETE" });
       if (res.ok) {
         showToast("Room deleted", "success");
         fetchRooms();

@@ -10,7 +10,7 @@ function Dashboard() {
   useEffect(() => {
     const fetchBookings = async () => {
       try {
-        const res = await fetch("http://localhost:5000/api/bookings");
+        const res = await fetch("https://campus-booking-system-81tp.onrender.com/api/bookings");
         const data = await res.json();
         const myBookings = data.filter(b => b.userId && b.userId._id === user._id);
         

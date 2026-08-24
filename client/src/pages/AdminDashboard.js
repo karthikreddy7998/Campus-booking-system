@@ -14,7 +14,7 @@ function AdminDashboard() {
 
   const fetchBookings = async () => {
     try {
-      const res = await fetch("http://localhost:5000/api/bookings", { cache: "no-store" });
+      const res = await fetch("https://campus-booking-system-81tp.onrender.com/api/bookings", { cache: "no-store" });
       const data = await res.json();
       setAllBookings(data);
       
@@ -30,7 +30,7 @@ function AdminDashboard() {
 
   const handleStatus = async (id, action) => {
     try {
-      const res = await fetch(`http://localhost:5000/api/bookings/${action}/${id}`, { method: "PUT" });
+      const res = await fetch(`https://campus-booking-system-81tp.onrender.com/api/bookings/${action}/${id}`, { method: "PUT" });
       if (res.ok) {
         showToast(`Booking ${action}ed successfully`, "success");
         fetchBookings();
