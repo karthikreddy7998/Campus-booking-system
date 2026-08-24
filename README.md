@@ -198,14 +198,6 @@ This project includes:
 
 ---
 
-## 👥 Contributors
-
-Contribution order:
-
-1. Saidam Venkatesh — 23JE0848
-2. Sachin Rajguru — 23JE0837
-3. Samala Sai Karthik Reddy — 23JE0854
-4. Sachin Kumar — 23JE0835
 
 ---
 
