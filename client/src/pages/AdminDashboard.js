@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useAuth, useToast } from '../App';
-import { Calendar as CalendarIcon, CheckCircle, XCircle, Clock, Check, X } from 'lucide-react';
+import { Calendar as CalendarIcon, CheckCircle, XCircle, Clock, Check, X, Download } from 'lucide-react';
 
 function AdminDashboard() {
   const [allBookings, setAllBookings] = useState([]);
@@ -14,7 +14,7 @@ function AdminDashboard() {
 
   const fetchBookings = async () => {
     try {
-      const res = await fetch("https://campus-booking-system-81tp.onrender.com/api/bookings", { cache: "no-store" });
+      const res = await fetch("http://localhost:5000/api/bookings", { cache: "no-store" });
       const data = await res.json();
       setAllBookings(data);
       
@@ -30,7 +30,7 @@ function AdminDashboard() {
 
   const handleStatus = async (id, action) => {
     try {
-      const res = await fetch(`https://campus-booking-system-81tp.onrender.com/api/bookings/${action}/${id}`, { method: "PUT" });
+      const res = await fetch(`http://localhost:5000/api/bookings/${action}/${id}`, { method: "PUT" });
       if (res.ok) {
         showToast(`Booking ${action}ed successfully`, "success");
         fetchBookings();
@@ -38,6 +38,10 @@ function AdminDashboard() {
     } catch (err) {
       showToast("Action failed", "error");
     }
+  };
+
+  const handleExport = (type) => {
+    window.open(`http://localhost:5000/api/export/${type}`, '_blank');
   };
 
   const displayedBookings = allBookings.filter(b => {
@@ -48,10 +52,18 @@ function AdminDashboard() {
 
   return (
     <div>
-      <div className="page-header">
+      <div className="page-header" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start' }}>
         <div>
           <h1>Admin Dashboard</h1>
           <p style={{ color: 'var(--text-muted)' }}>Manage booking requests and monitor usage.</p>
+        </div>
+        <div style={{ display: 'flex', gap: '12px' }}>
+          <button className="btn-secondary" onClick={() => handleExport('csv')} style={{ padding: '8px 16px' }}>
+            <Download size={16} /> Export CSV
+          </button>
+          <button className="btn-primary" onClick={() => handleExport('pdf')} style={{ padding: '8px 16px' }}>
+            <Download size={16} /> Export PDF
+          </button>
         </div>
       </div>
 

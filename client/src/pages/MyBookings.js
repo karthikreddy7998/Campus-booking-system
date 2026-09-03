@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { useAuth, useToast } from '../App';
-import { Calendar as CalendarIcon, Clock, Edit2, XCircle, X } from 'lucide-react';
+import { Calendar as CalendarIcon, Clock, Edit2, XCircle, X, QrCode } from 'lucide-react';
 import Calendar from 'react-calendar';
 import { format, parseISO } from 'date-fns';
+import QRCodeModal from '../components/QRCodeModal';
 
 const getRoomTimeOptions = (roomName) => {
   const isLibrary = roomName?.toLowerCase().includes('library');
@@ -28,6 +29,7 @@ function MyBookings() {
   const [bookings, setBookings] = useState([]);
   const [editingBooking, setEditingBooking] = useState(null);
   const [cancellingId, setCancellingId] = useState(null);
+  const [qrBooking, setQrBooking] = useState(null);
   
   // Edit Form State
   const [date, setDate] = useState(new Date());
@@ -44,7 +46,7 @@ function MyBookings() {
 
   const fetchBookings = async () => {
     try {
-      const res = await fetch("https://campus-booking-system-81tp.onrender.com/api/bookings");
+      const res = await fetch("http://localhost:5000/api/bookings");
       const data = await res.json();
       const myBookings = data.filter(b => b.userId && b.userId._id === user._id);
       setBookings(myBookings);
@@ -56,7 +58,7 @@ function MyBookings() {
   const confirmCancel = async () => {
     if (!cancellingId) return;
     try {
-      const res = await fetch(`https://campus-booking-system-81tp.onrender.com/api/bookings/cancel/${cancellingId}`, { method: "PUT" });
+      const res = await fetch(`http://localhost:5000/api/bookings/cancel/${cancellingId}`, { method: "PUT" });
       if (res.ok) {
         showToast("Booking cancelled", "success");
         setCancellingId(null);
@@ -85,7 +87,7 @@ function MyBookings() {
     }
 
     try {
-      const res = await fetch(`https://campus-booking-system-81tp.onrender.com/api/bookings/update/${editingBooking._id}`, {
+      const res = await fetch(`http://localhost:5000/api/bookings/update/${editingBooking._id}`, {
         method: "PUT",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
@@ -158,18 +160,27 @@ function MyBookings() {
               <p style={{ margin: '8px 0 0 0', fontSize: '0.9rem' }}><strong>Purpose:</strong> {booking.purpose}</p>
             </div>
 
-            {booking.status === 'pending' && (
-              <div style={{ display: 'flex', gap: '12px' }}>
-                <button className="btn-secondary" onClick={() => startEdit(booking)} style={{ padding: '8px 12px' }}>
-                  <Edit2 size={16} />
-                  Modify
+            <div style={{ display: 'flex', gap: '12px', alignItems: 'center' }}>
+              {booking.status === 'approved' && booking.qrCode && (
+                <button className="btn-primary" onClick={() => setQrBooking(booking)} style={{ padding: '8px 12px' }}>
+                  <QrCode size={16} />
+                  Show QR
                 </button>
-                <button className="btn-danger" onClick={() => setCancellingId(booking._id)} style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
-                  <XCircle size={16} />
-                  Cancel
-                </button>
-              </div>
-            )}
+              )}
+
+              {booking.status === 'pending' && (
+                <>
+                  <button className="btn-secondary" onClick={() => startEdit(booking)} style={{ padding: '8px 12px' }}>
+                    <Edit2 size={16} />
+                    Modify
+                  </button>
+                  <button className="btn-danger" onClick={() => setCancellingId(booking._id)} style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
+                    <XCircle size={16} />
+                    Cancel
+                  </button>
+                </>
+              )}
+            </div>
           </div>
         ))}
       </div>
@@ -254,6 +265,11 @@ function MyBookings() {
             </div>
           </div>
         </div>
+      )}
+
+      {/* QR Code Modal */}
+      {qrBooking && (
+        <QRCodeModal booking={qrBooking} onClose={() => setQrBooking(null)} />
       )}
     </div>
   );

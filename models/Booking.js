@@ -38,6 +38,26 @@ const bookingSchema = new mongoose.Schema(
       type: String,
       enum: ["pending", "approved", "rejected", "cancelled"],
       default: "pending"
+    },
+
+    // QR Code Check-in fields
+    qrCode: {
+      type: String,
+      default: null
+    },
+
+    otp: {
+      type: String
+    },
+
+    checkedIn: {
+      type: Boolean,
+      default: false
+    },
+
+    checkInTime: {
+      type: Date,
+      default: null
     }
   },
   { timestamps: true }

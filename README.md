@@ -14,63 +14,44 @@ Campus facilities are often reserved manually, which leads to scheduling conflic
 * Real-time room availability tracking
 * Conflict-free scheduling system
 * Role-based administrative control
+* AI-powered room search and analytics insights
 
 This platform improves transparency, accessibility, and effective campus resource management.
 
 ---
 
-## 🎯 Objectives
+## 🚀 Key Features Built
 
-* Provide a centralized booking system for campus facilities
-* Prevent overlapping reservations automatically
-* Enable easy booking modification and cancellation
-* Allow administrators to manage rooms and booking requests efficiently
-* Monitor facility usage activity
+### User Features
+* **Smart AI Room Search:** Users can search for rooms using natural language (e.g., "Find me a quiet room for 50 people with a projector") powered by the Google Gemini API.
+* **Smart Search & Filtering:** Debounced searching by room name, building, capacity, and type.
+* **Booking Calendar View:** A visual monthly calendar showing all approved, pending, and rejected bookings.
+* **QR Code & OTP Check-In:** Users receive a secure QR code and a 6-digit OTP upon booking approval to check into their rooms digitally.
+* **In-App & Email Notifications:** Real-time bell notifications and automated email alerts (via Nodemailer) for booking approvals, rejections, and check-in OTPs.
+* **Booking Management:** Book rooms for specific time slots, modify existing requests, and cancel bookings.
 
----
-
-## 👤 User Features
-
-Users can:
-
-* View available classrooms, seminar halls, and meeting rooms
-* Book rooms for specific dates and time slots
-* Modify existing reservations
-* Cancel bookings when required
-* Receive booking confirmations
-* View booking history in **My Bookings** section
-
----
-
-## 🛠️ Admin Features
-
-Administrators can:
-
-* Add new rooms and update facility details
-* Manage room availability
-* Approver or reject booking requests
-* Monitor facility usage
-* Manage all bookings through Admin Dashboard
+### Admin Features
+* **AI Executive Summary:** The admin Analytics dashboard automatically generates intelligent, actionable insights from raw booking data using the Gemini API.
+* **Advanced Analytics Dashboard:** Visual charts (Recharts) displaying total bookings, peak hours, most booked rooms, and bookings by status.
+* **Export Data:** One-click export of booking data to CSV and PDF formats for reporting.
+* **Room Management:** Add new rooms, update facility details, and toggle room availability.
+* **Booking Moderation:** Review all pending requests to approve or reject them.
 
 ---
 
 ## ⚙️ Smart Scheduling Logic
 
 The backend scheduling engine ensures:
-
-* No overlapping bookings are allowed
-* End time must always be greater than start time
-* Invalid booking slots are automatically rejected
-* Conflicts are detected before confirmation
-
-This guarantees reliable allocation of campus facilities.
+* No overlapping bookings are allowed for the same room.
+* End time must always be greater than start time.
+* Invalid booking slots are automatically rejected.
+* Conflicts are detected before confirmation.
 
 ---
 
 ## 🔐 Authentication & Authorization
 
 The system implements secure authentication using:
-
 * JSON Web Tokens (JWT)
 * bcrypt password hashing
 * Role-based access control (Admin / User)
@@ -78,138 +59,67 @@ The system implements secure authentication using:
 ### Special Admin Access Rule
 
 If any user logs in using the administrator credentials:
-
 ```
 Email: admin@admin.com
 Password: admin@123
 ```
-
 then the system automatically grants **Administrator Access** and enables the **Admin Dashboard** with full management privileges.
-
----
-
-## 🖥️ Admin Dashboard
-
-The Admin Dashboard allows administrators to:
-
-* View all booking requests
-* Approve or reject reservations
-* Add or update room details
-* Monitor booking activity
-
-This provides complete control over campus facility management.
 
 ---
 
 ## 🎨 User Interface
 
 The application uses a modern **Glassmorphism UI design** featuring:
-
-* Clean layout
-* Responsive components
+* Clean layout and frosted glass panels
+* Responsive components (Lucide React Icons)
 * Smooth navigation experience
 * Simple booking workflow
-
-Designed for both students and faculty usability.
 
 ---
 
 ## 🧰 Tech Stack
 
 ### Frontend
-
 * React.js
 * Vanilla CSS (Glassmorphism UI)
+* Recharts (Data Visualization)
+* React-Calendar
 
 ### Backend
-
 * Node.js
 * Express.js
+* Google Generative AI SDK (Gemini API for RAG)
+* Nodemailer (Email services)
 
 ### Database
-
 * MongoDB Atlas
-
-### Deployment
-
-* Frontend: Vercel
-* Backend: Render
-
----
-
-## 📅 Suggested Technologies from Problem Statement
-
-* Calendar APIs for schedule handling
-* Backend scheduling algorithms for conflict detection
-
----
-
-## 🚀 Application Features Summary
-
-* Secure login & registration system
-* Role-based access control
-* Real-time room availability
-* Conflict-free booking engine
-* Booking modification & cancellation
-* Admin approval workflow
-* Facility usage monitoring
-* Cloud deployment ready architecture
 
 ---
 
 ## ▶️ Commands for Running the Application
 
-### Run Frontend (Development Mode)
+### Setup Environment Variables
+Create a `.env` file in the root directory:
+```env
+MONGO_URI=your_mongodb_connection_string
+EMAIL_USER=your_email@gmail.com
+EMAIL_PASS=your_app_password
+JWT_SECRET=your_jwt_secret
+GEMINI_API_KEY=your_google_gemini_api_key
+```
 
+### Run Frontend (Development Mode)
 ```bash
 cd client
+npm install
 npm start
 ```
 
 ### Run Backend Server
-
 ```bash
-nodemon server.js
-```
-
-### Production Server Start
-
-```bash
+npm install
 node server.js
 ```
-
-### Build Optimized React App
-
-```bash
-npm run build
-```
-
----
-
-## 📦 Project Deliverables
-
-This project includes:
-
-* Room booking web application
-* Admin dashboard
-* Backend scheduling system
-* Secure authentication module
-* Cloud deployment configuration
-
----
-
-
----
-
-## 📈 Future Enhancements
-
-Possible improvements:
-
-* Email notification integration
-* Google Calendar synchronization
-* Progressive Web App (PWA) support
-* QR-based room access validation
-* Advanced analytics dashboard
 
 ---
 

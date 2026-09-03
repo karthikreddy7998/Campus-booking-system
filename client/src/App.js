@@ -8,6 +8,9 @@ import Rooms from './pages/Rooms';
 import MyBookings from './pages/MyBookings';
 import AdminDashboard from './pages/AdminDashboard';
 import AdminRooms from './pages/AdminRooms';
+import Analytics from './pages/Analytics';
+import BookingCalendar from './pages/BookingCalendar';
+import CheckIn from './pages/CheckIn';
 import './App.css';
 
 export const AuthContext = createContext();
@@ -57,29 +60,29 @@ function App() {
           <Routes>
             <Route path="/login" element={<Login />} />
             <Route path="/register" element={<Register />} />
+            <Route path="/checkin/:token" element={<CheckIn />} />
+            <Route path="/checkin" element={<CheckIn />} />
+            
             <Route path="/*" element={
               user ? (
                 <div className="app-container">
                   <Sidebar />
                   <main className="main-content">
                     <Routes>
-                      {user.role === 'admin' ? (
-                        <>
-                          <Route path="/" element={<AdminDashboard />} />
-                          <Route path="/rooms" element={<AdminRooms />} />
-                        </>
-                      ) : (
-                        <>
-                          <Route path="/" element={<Dashboard />} />
-                          <Route path="/rooms" element={<Rooms />} />
-                          <Route path="/my-bookings" element={<MyBookings />} />
-                        </>
-                      )}
+                      <Route path="/" element={user.role === 'admin' ? <AdminDashboard /> : <Dashboard />} />
+                      <Route path="/rooms" element={user.role === 'admin' ? <AdminRooms /> : <Rooms />} />
+                      
+                      {user.role === 'admin' && <Route path="/analytics" element={<Analytics />} />}
+                      {user.role !== 'admin' && <Route path="/my-bookings" element={<MyBookings />} />}
+                      
+                      <Route path="/calendar" element={<BookingCalendar />} />
                       <Route path="*" element={<Navigate to="/" />} />
                     </Routes>
                   </main>
                 </div>
-              ) : <Navigate to="/login" />
+              ) : (
+                <Navigate to="/login" replace />
+              )
             } />
           </Routes>
         </Router>

@@ -1,7 +1,8 @@
 import React from 'react';
 import { NavLink, useNavigate } from 'react-router-dom';
 import { useAuth } from '../App';
-import { Calendar, LayoutDashboard, DoorOpen, LogOut, ClipboardList, School } from 'lucide-react';
+import { Calendar, LayoutDashboard, DoorOpen, LogOut, ClipboardList, School, BarChart3, CalendarDays } from 'lucide-react';
+import NotificationBell from './NotificationBell';
 
 function Sidebar() {
   const { user, setUser } = useAuth();
@@ -30,6 +31,14 @@ function Sidebar() {
               <DoorOpen size={20} />
               Manage Rooms
             </NavLink>
+            <NavLink to="/analytics" className={({ isActive }) => `nav-item ${isActive ? 'active' : ''}`}>
+              <BarChart3 size={20} />
+              Analytics
+            </NavLink>
+            <NavLink to="/calendar" className={({ isActive }) => `nav-item ${isActive ? 'active' : ''}`}>
+              <CalendarDays size={20} />
+              Calendar
+            </NavLink>
           </>
         ) : (
           <>
@@ -45,11 +54,17 @@ function Sidebar() {
               <Calendar size={20} />
               My Bookings
             </NavLink>
+            <NavLink to="/calendar" className={({ isActive }) => `nav-item ${isActive ? 'active' : ''}`}>
+              <CalendarDays size={20} />
+              Calendar
+            </NavLink>
           </>
         )}
       </nav>
 
       <div className="sidebar-footer">
+        <NotificationBell />
+        <div style={{ height: '12px' }} />
         <div className="user-info">
           <div className="avatar">
             {user.name.charAt(0).toUpperCase()}

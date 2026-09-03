@@ -161,3 +161,7 @@ button {
   background: var(--primary) !important;
   color: white !important;
 }
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}

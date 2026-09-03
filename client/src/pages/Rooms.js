@@ -1,8 +1,8 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import { useAuth, useToast } from '../App';
 import Calendar from 'react-calendar';
 import 'react-calendar/dist/Calendar.css';
-import { DoorOpen, Users, MapPin, X } from 'lucide-react';
+import { DoorOpen, Users, MapPin, X, Search, Sparkles } from 'lucide-react';
 import { format } from 'date-fns';
 
 const getRoomImage = (room) => {
@@ -36,9 +36,32 @@ const getRoomTimeOptions = (roomName) => {
   return options;
 };
 
+// Custom Debounce Hook
+function useDebounce(value, delay) {
+  const [debouncedValue, setDebouncedValue] = useState(value);
+  useEffect(() => {
+    const handler = setTimeout(() => {
+      setDebouncedValue(value);
+    }, delay);
+    return () => {
+      clearTimeout(handler);
+    };
+  }, [value, delay]);
+  return debouncedValue;
+}
+
 function Rooms() {
   const [rooms, setRooms] = useState([]);
   const [selectedRoom, setSelectedRoom] = useState(null);
+  
+  // Search state
+  const [searchTerm, setSearchTerm] = useState('');
+  const debouncedSearchTerm = useDebounce(searchTerm, 300);
+  
+  // AI Search state
+  const [aiQuery, setAiQuery] = useState('');
+  const [isAiSearching, setIsAiSearching] = useState(false);
+  const [isAiMode, setIsAiMode] = useState(false);
   
   // Booking Form State
   const [date, setDate] = useState(new Date());
@@ -55,12 +78,48 @@ function Rooms() {
 
   const fetchRooms = async () => {
     try {
-      const res = await fetch("https://campus-booking-system-81tp.onrender.com/api/rooms", { cache: "no-store" });
+      const res = await fetch("http://localhost:5000/api/rooms", { cache: "no-store" });
       const data = await res.json();
       setRooms(data);
     } catch (err) {
       showToast("Failed to fetch rooms", "error");
     }
+  };
+
+  const handleAiSearch = async (e) => {
+    e.preventDefault();
+    if (!aiQuery.trim()) return;
+    
+    setIsAiSearching(true);
+    try {
+      const res = await fetch("http://localhost:5000/api/rooms/ai-search", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ query: aiQuery })
+      });
+      const data = await res.json();
+      if (res.ok) {
+        setRooms(data);
+        setIsAiMode(true);
+        if (data.length > 0) {
+          showToast(`AI found ${data.length} matches!`, "success");
+        } else {
+          showToast("AI couldn't find any rooms matching that description.", "error");
+        }
+      } else {
+        showToast(data.message || "AI Search failed", "error");
+      }
+    } catch (err) {
+      showToast("Failed to connect to AI service", "error");
+    } finally {
+      setIsAiSearching(false);
+    }
+  };
+
+  const clearAiSearch = () => {
+    setIsAiMode(false);
+    setAiQuery('');
+    fetchRooms();
   };
 
   const handleBook = async (e) => {
@@ -76,7 +135,7 @@ function Rooms() {
     }
 
     try {
-      const res = await fetch("https://campus-booking-system-81tp.onrender.com/api/bookings/book", {
+      const res = await fetch("http://localhost:5000/api/bookings/book", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
@@ -116,18 +175,83 @@ function Rooms() {
   const startOptions = allTimeOptions.slice(0, -1);
   const endOptions = startTime ? allTimeOptions.filter(t => t > startTime) : [];
 
+  const filteredRooms = rooms.filter(room => {
+    const term = debouncedSearchTerm.toLowerCase();
+    return (
+      room.roomName.toLowerCase().includes(term) ||
+      room.building.toLowerCase().includes(term) ||
+      room.type.toLowerCase().includes(term) ||
+      room.capacity.toString().includes(term)
+    );
+  });
+
   return (
     <div>
-      <div className="page-header">
+      <div className="page-header" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
         <div>
           <h1>Available Rooms</h1>
           <p style={{ color: 'var(--text-muted)' }}>Select a room to check availability and book.</p>
         </div>
+        
+        <div style={{ position: 'relative', width: '300px' }}>
+          <input 
+            type="text" 
+            placeholder="Search by name, building, capacity..." 
+            value={searchTerm}
+            onChange={(e) => setSearchTerm(e.target.value)}
+            disabled={isAiMode}
+            style={{ 
+              width: '100%', 
+              padding: '10px 16px 10px 40px', 
+              borderRadius: '8px', 
+              border: '1px solid var(--border)',
+              background: 'rgba(15, 23, 42, 0.6)',
+              color: 'var(--text-main)',
+              opacity: isAiMode ? 0.5 : 1
+            }} 
+          />
+          <Search size={18} style={{ position: 'absolute', left: '14px', top: '50%', transform: 'translateY(-50%)', color: 'var(--text-muted)' }} />
+        </div>
+      </div>
+
+      {/* AI Search Bar */}
+      <div className="glass" style={{ marginBottom: '24px', padding: '16px', borderRadius: '12px', border: '1px solid #6366f1', background: 'rgba(99, 102, 241, 0.05)' }}>
+        <form onSubmit={handleAiSearch} style={{ display: 'flex', gap: '12px', alignItems: 'center' }}>
+          <Sparkles size={24} color="#6366f1" />
+          <input 
+            type="text" 
+            placeholder="✨ Ask AI: e.g., 'Find me a quiet room for 20 people with a projector'" 
+            value={aiQuery}
+            onChange={(e) => setAiQuery(e.target.value)}
+            style={{ 
+              flex: 1, 
+              background: 'transparent', 
+              border: 'none', 
+              color: 'var(--text-main)',
+              fontSize: '1rem',
+              outline: 'none'
+            }} 
+          />
+          {isAiMode && (
+            <button type="button" onClick={clearAiSearch} className="btn-secondary" style={{ padding: '8px 16px', fontSize: '0.9rem' }}>
+              Clear AI Search
+            </button>
+          )}
+          <button type="submit" className="btn-primary" disabled={isAiSearching || !aiQuery.trim()} style={{ padding: '8px 20px' }}>
+            {isAiSearching ? 'Thinking...' : 'AI Search'}
+          </button>
+        </form>
       </div>
 
       <div className="grid-cards">
-        {rooms.map(room => (
-          <div key={room._id} className="card glass" style={{ padding: 0, overflow: 'hidden', display: 'flex', flexDirection: 'column' }}>
+        {filteredRooms.length === 0 ? (
+          <div style={{ gridColumn: '1 / -1', padding: '40px', textAlign: 'center', color: 'var(--text-muted)', background: 'rgba(255,255,255,0.02)', borderRadius: '12px', border: '1px solid var(--border)' }}>
+            <Search size={40} style={{ margin: '0 auto 16px', opacity: 0.5 }} />
+            <h3>No Rooms Found</h3>
+            <p>Try adjusting your search filters.</p>
+          </div>
+        ) : filteredRooms.map(room => (
+          <div key={room._id} className="card glass" style={{ padding: 0, overflow: 'hidden', display: 'flex', flexDirection: 'column', border: room.aiReason ? '1px solid #6366f1' : '1px solid var(--border)' }}>
             <div style={{ height: '180px', width: '100%', position: 'relative' }}>
               <img 
                 src={getRoomImage(room)} 
@@ -148,7 +272,7 @@ function Rooms() {
                 </div>
               </div>
               
-              <div style={{ display: 'flex', alignItems: 'center', gap: '16px', marginBottom: '24px', color: 'var(--text-muted)', fontSize: '0.9rem' }}>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '16px', marginBottom: '16px', color: 'var(--text-muted)', fontSize: '0.9rem' }}>
                 <div style={{ display: 'flex', alignItems: 'center', gap: '4px' }}>
                   <Users size={16} />
                   Capacity: {room.capacity}
@@ -158,6 +282,12 @@ function Rooms() {
                   {room.type}
                 </div>
               </div>
+
+              {room.aiReason && (
+                <div style={{ background: 'rgba(99, 102, 241, 0.1)', padding: '12px', borderRadius: '8px', marginBottom: '20px', fontSize: '0.9rem', color: '#a5b4fc', borderLeft: '3px solid #6366f1' }}>
+                  <strong>✨ AI Match:</strong> {room.aiReason}
+                </div>
+              )}
 
               <div style={{ marginTop: 'auto' }}>
                 <button 

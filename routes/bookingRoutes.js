@@ -7,7 +7,9 @@ const {
   approveBooking,
   rejectBooking,
   cancelBooking,
-  updateBooking
+  updateBooking,
+  checkIn,
+  checkInWithOTP
 } = require("../controllers/bookingController");
 
 // Create Booking Request
@@ -27,5 +29,11 @@ router.put("/cancel/:id", cancelBooking);
 
 // Update Booking
 router.put("/update/:id", updateBooking);
+
+// QR Code Check-in
+router.post("/checkin/:token", checkIn);
+
+// OTP Check-in
+router.post("/checkin-otp", checkInWithOTP);
 
 module.exports = router;
