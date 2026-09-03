@@ -1,6 +1,6 @@
 # 🏫 Campus Room & Facility Booking System
 
-A centralized **Campus Room and Facility Booking System** designed to simplify the reservation of classrooms, seminar halls, and meeting spaces across campus. This project eliminates manual booking conflicts by providing a **secure, real-time, role-based web application** built using the **MERN Stack (MongoDB, Express.js, React.js, Node.js)**.
+A centralized **Campus Room and Facility Booking System** designed to simplify the reservation of classrooms, seminar halls, and meeting spaces across campus. This project eliminates manual booking conflicts by providing a **secure, real-time, role-based web application** built using the **MERN Stack** integrated with **RAG (Retrieval-Augmented Generation)** AI capabilities.
 
 The system enables students, faculty, and administrators to efficiently manage facility reservations through an intuitive interface and powerful backend scheduling logic.
 
@@ -77,7 +77,7 @@ The application uses a modern **Glassmorphism UI design** featuring:
 
 ---
 
-## 🧰 Tech Stack
+## 🧰 Tech Stack (MERN + RAG)
 
 ### Frontend
 * React.js
