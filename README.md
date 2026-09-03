@@ -23,7 +23,7 @@ This platform improves transparency, accessibility, and effective campus resourc
 ## 🚀 Key Features Built
 
 ### User Features
-* **Smart AI Room Search:** Users can search for rooms using natural language (e.g., "Find me a quiet room for 50 people with a projector") powered by the Google Gemini API.
+* **Smart AI Room Search (RAG):** Users can search for rooms using natural language (e.g., "Find me a quiet room for 50 people with a projector"). This is powered by a **Retrieval-Augmented Generation (RAG)** architecture that feeds real-time MongoDB room data into the Google Gemini API to return highly accurate, contextual matches.
 * **Smart Search & Filtering:** Debounced searching by room name, building, capacity, and type.
 * **Booking Calendar View:** A visual monthly calendar showing all approved, pending, and rejected bookings.
 * **QR Code & OTP Check-In:** Users receive a secure QR code and a 6-digit OTP upon booking approval to check into their rooms digitally.
@@ -88,7 +88,7 @@ The application uses a modern **Glassmorphism UI design** featuring:
 ### Backend
 * Node.js
 * Express.js
-* Google Generative AI SDK (Gemini API for RAG)
+* Google Generative AI SDK (Gemini API for RAG Architecture)
 * Nodemailer (Email services)
 
 ### Database
