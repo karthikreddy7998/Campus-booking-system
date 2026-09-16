@@ -123,6 +123,4 @@ node server.js
 
 ---
 
-## 📄 License
 
-This project is developed as part of the **Software Engineering Lab Course Project**.
