@@ -17,7 +17,7 @@ function CheckIn() {
 
   const performCheckInToken = async () => {
     try {
-      const res = await fetch(`http://localhost:5000/api/bookings/checkin/${token}`, {
+      const res = await fetch(`https://campus-booking-system-1-nqej.onrender.com/api/bookings/checkin/${token}`, {
         method: 'POST'
       });
       const data = await res.json();
@@ -40,7 +40,7 @@ function CheckIn() {
     if (!otp) return;
     setStatus('loading');
     try {
-      const res = await fetch(`http://localhost:5000/api/bookings/checkin-otp`, {
+      const res = await fetch(`https://campus-booking-system-1-nqej.onrender.com/api/bookings/checkin-otp`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ otp })

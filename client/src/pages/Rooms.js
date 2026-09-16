@@ -78,7 +78,7 @@ function Rooms() {
 
   const fetchRooms = async () => {
     try {
-      const res = await fetch("http://localhost:5000/api/rooms", { cache: "no-store" });
+      const res = await fetch("https://campus-booking-system-1-nqej.onrender.com/api/rooms", { cache: "no-store" });
       const data = await res.json();
       setRooms(data);
     } catch (err) {
@@ -92,7 +92,7 @@ function Rooms() {
     
     setIsAiSearching(true);
     try {
-      const res = await fetch("http://localhost:5000/api/rooms/ai-search", {
+      const res = await fetch("https://campus-booking-system-1-nqej.onrender.com/api/rooms/ai-search", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ query: aiQuery })
@@ -135,7 +135,7 @@ function Rooms() {
     }
 
     try {
-      const res = await fetch("http://localhost:5000/api/bookings/book", {
+      const res = await fetch("https://campus-booking-system-1-nqej.onrender.com/api/bookings/book", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({

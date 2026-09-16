@@ -4,7 +4,7 @@ import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, PieChart, Pie, Cel
 import { BarChart3, TrendingUp, Users, Clock, Sparkles } from 'lucide-react';
 
 const COLORS = ['#10b981', '#f59e0b', '#ef4444', '#94a3b8'];
-const API_BASE = 'http://localhost:5000';
+const API_BASE = 'https://campus-booking-system-1-nqej.onrender.com';
 
 function Analytics() {
   const [data, setData] = useState(null);

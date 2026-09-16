@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import { useAuth } from '../App';
 import { Bell, Check, CheckCheck } from 'lucide-react';
 
-const API_BASE = 'http://localhost:5000';
+const API_BASE = 'https://campus-booking-system-1-nqej.onrender.com';
 
 function NotificationBell() {
   const [notifications, setNotifications] = useState([]);

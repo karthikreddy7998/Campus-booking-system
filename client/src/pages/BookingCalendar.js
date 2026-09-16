@@ -5,7 +5,7 @@ import 'react-calendar/dist/Calendar.css';
 import { Calendar as CalendarIcon, Clock, MapPin } from 'lucide-react';
 import { format } from 'date-fns';
 
-const API_BASE = 'http://localhost:5000';
+const API_BASE = 'https://campus-booking-system-1-nqej.onrender.com';
 
 function BookingCalendar() {
   const [bookings, setBookings] = useState([]);

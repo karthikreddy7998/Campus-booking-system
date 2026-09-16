@@ -46,7 +46,7 @@ function MyBookings() {
 
   const fetchBookings = async () => {
     try {
-      const res = await fetch("http://localhost:5000/api/bookings");
+      const res = await fetch("https://campus-booking-system-1-nqej.onrender.com/api/bookings");
       const data = await res.json();
       const myBookings = data.filter(b => b.userId && b.userId._id === user._id);
       setBookings(myBookings);
@@ -58,7 +58,7 @@ function MyBookings() {
   const confirmCancel = async () => {
     if (!cancellingId) return;
     try {
-      const res = await fetch(`http://localhost:5000/api/bookings/cancel/${cancellingId}`, { method: "PUT" });
+      const res = await fetch(`https://campus-booking-system-1-nqej.onrender.com/api/bookings/cancel/${cancellingId}`, { method: "PUT" });
       if (res.ok) {
         showToast("Booking cancelled", "success");
         setCancellingId(null);
@@ -87,7 +87,7 @@ function MyBookings() {
     }
 
     try {
-      const res = await fetch(`http://localhost:5000/api/bookings/update/${editingBooking._id}`, {
+      const res = await fetch(`https://campus-booking-system-1-nqej.onrender.com/api/bookings/update/${editingBooking._id}`, {
         method: "PUT",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
