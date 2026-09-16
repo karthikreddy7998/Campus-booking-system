@@ -79,20 +79,20 @@ The application uses a modern **Glassmorphism UI design** featuring:
 
 ## 🧰 Tech Stack (MERN + RAG)
 
-### Frontend
-* React.js
-* Vanilla CSS (Glassmorphism UI)
-* Recharts (Data Visualization)
-* React-Calendar
+### 💻 Frontend
+* ⚛️ **React.js** (Core Framework)
+* 🎨 **Vanilla CSS** (Responsive Glassmorphism UI)
+* 📊 **Recharts** (Data Visualization)
+* 📅 **React-Calendar** (Interactive Booking UI)
 
-### Backend
-* Node.js
-* Express.js
-* Google Generative AI SDK (Gemini API for RAG Architecture)
-* Nodemailer (Email services)
+### ⚙️ Backend
+* 🟢 **Node.js** (Runtime Environment)
+* 🚂 **Express.js** (REST API Framework)
+* 🧠 **Google Gemini API** (RAG Architecture for AI Search & Analytics)
+* 📧 **Nodemailer** (Automated Email Alerts)
 
-### Database
-* MongoDB Atlas
+### 🗄️ Database
+* 🍃 **MongoDB Atlas** (Cloud NoSQL Database)
 
 ---
 
